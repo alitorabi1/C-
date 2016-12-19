@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="DataTemplate for CardTypeCommandViewModel">
+    <Position X="4.885" Y="1.583" Height="0.531" Width="2.398" />
+  </Comment>
+  <Class Name="CipherText.CardTypeCommandViewModel">
+    <Position X="5" Y="2.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAACCEAAAAAAQAAAAAAgAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>ViewModel\CardTypeCommandViewModel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipherText.ViewModelBase">
+    <Position X="4.25" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CipherText.CardTypeCommandView" Collapsed="true">
+    <Position X="5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CardTypeCommandView.xaml.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CipherText.ApplicationMainWindowViewModel">
+    <Position X="0.5" Y="2.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="CardTypeCommands" Type="CipherText.CardTypeCommandViewModel" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="3.875" />
+        <Point X="5" Y="3.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CIAAAAAAAAAAsAAACAAgAAAAAAAAEQAAAAAAAAAgoAE=</HashCode>
+      <FileName>ViewModel\ApplicationMainWindowViewModel.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CardTypeCommands" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CipherText.DataBase">
+    <Position X="0.5" Y="6.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAgIACAAIIAAAAAAABCAAIAAgIAQAAAAAIAAEQAAA=</HashCode>
+      <FileName>Model\DataBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

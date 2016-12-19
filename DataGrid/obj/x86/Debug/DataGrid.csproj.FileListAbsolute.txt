@@ -1,0 +1,29 @@
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\MainWindow.baml
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\MainWindow.g.cs
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\App.g.cs
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid_MarkupCompile.cache
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid.g.resources
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid.Properties.Resources.resources
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\bin\Debug\DataGrid.exe
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\bin\Debug\DataGrid.pdb
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid.exe
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid.pdb
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\moc\Documents\Vortraege\TechDays 2010 - WPF 4.0\Samples\DataGrid\DataGrid\obj\x86\Debug\DataGrid_MarkupCompile.lref
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\bin\Debug\DataGrid.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\bin\Debug\DataGrid.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\MainWindow.g.cs
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\App.g.cs
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid_MarkupCompile.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid_MarkupCompile.lref
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\MainWindow.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.g.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\DataGrid\obj\x86\Debug\DataGrid.csproj.GenerateResource.Cache

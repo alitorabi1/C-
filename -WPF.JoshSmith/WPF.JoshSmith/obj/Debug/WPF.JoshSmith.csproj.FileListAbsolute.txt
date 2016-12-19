@@ -1,0 +1,8 @@
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\bin\Debug\WPF.JoshSmith.XML
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\bin\Debug\WPF.JoshSmith.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\bin\Debug\WPF.JoshSmith.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\obj\Debug\WPF.JoshSmith.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\obj\Debug\WPF.JoshSmith.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\obj\Debug\WPF.JoshSmith.csproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\obj\Debug\WPF.JoshSmith.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\WPF.JoshSmith\obj\Debug\WPF.JoshSmith.pdb

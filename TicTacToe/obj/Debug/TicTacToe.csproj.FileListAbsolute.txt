@@ -1,0 +1,13 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\bin\Debug\TicTacToe.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\bin\Debug\TicTacToe.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\bin\Debug\TicTacToe.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\TicTacToe\obj\Debug\TicTacToe.pdb

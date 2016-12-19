@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\bin\Debug\CommonNumbers.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\bin\Debug\CommonNumbers.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\bin\Debug\CommonNumbers.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\obj\Debug\CommonNumbers.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\obj\Debug\CommonNumbers.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\CommonNumbers\obj\Debug\CommonNumbers.pdb

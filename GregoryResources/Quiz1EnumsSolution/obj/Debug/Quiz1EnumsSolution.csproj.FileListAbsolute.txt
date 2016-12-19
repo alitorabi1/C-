@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\bin\Debug\Quiz1EnumsSolution.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\bin\Debug\Quiz1EnumsSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\bin\Debug\Quiz1EnumsSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\obj\Debug\Quiz1EnumsSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\obj\Debug\Quiz1EnumsSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1EnumsSolution\obj\Debug\Quiz1EnumsSolution.csprojResolveAssemblyReference.cache

@@ -1,0 +1,55 @@
+Inheritance:
+- Single inheritance of classes
+- Multiple inheritance of interfaces
+
+Keywords and syntax related to OOP
+- class A : B (extends => : )
+- this => this
+- super => base
+
+calling constructor using base
+class A : B {
+	A() : base() { ... }
+}
+
+calling version of a method from parent class
+class A : B {
+	void doSomething() {
+		base.doSomething();
+	}
+
+}
+
+* virtual vs. non-virtual calls
+- non-virtual call - method to call is decided at *compilation* time which enables better compiler optimizations that improve performance
+- virtual call - method to call is decided at run time
+
+Destructor - method  called when object is
+about to be garbage-collected.
+Java has a similar mechanism called "finalizer" method.
+
+* Try with resources in C# uses keyword 'using'
+
+meaning and use of static - same as in Java
+
+
+Older notes:
+
+* parameters - value passed to a method
+* variables (local variables) - variable declared inside of a method
+* fields - variable declared inside of a class
+* properties
+
+class variable / field
+object field
+
+class Person {
+	int getAge() { return new Random().nextInt(100); }
+	void setAge(int age) { }
+}
+
+
+
+
+
+

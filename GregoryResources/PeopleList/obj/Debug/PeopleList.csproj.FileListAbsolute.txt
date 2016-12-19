@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\bin\Debug\PeopleList.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\bin\Debug\PeopleList.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\bin\Debug\PeopleList.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\obj\Debug\PeopleList.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\obj\Debug\PeopleList.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleList\obj\Debug\PeopleList.pdb

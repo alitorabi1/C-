@@ -1,0 +1,24 @@
+HOMEWORK
+
+>>> TicTacToe
+
+1. Complete isPlayerWinner() implementation
+2. Complete Game reset()
+3. When player wins - use that player's
+name in the message informing of the win.
+
+"Jerry won in 6 moves total playing X"
+
+>>> Notepad
+
+Create project Notepad similar to Notepad in MS Windows.
+
+Have a menu with one item File, with sub-items
+"Open...", "Save as...", "Exit"
+
+The rest of the window is a multi-line text edit control.
+
+Utitlize file open / save dialogs to
+read and save contents of text files.
+
+

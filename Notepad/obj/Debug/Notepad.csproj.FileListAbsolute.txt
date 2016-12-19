@@ -1,0 +1,13 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\bin\Debug\Notepad.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\bin\Debug\Notepad.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\bin\Debug\Notepad.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Notepad\obj\Debug\Notepad.csprojResolveAssemblyReference.cache

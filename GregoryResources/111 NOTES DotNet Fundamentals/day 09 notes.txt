@@ -1,0 +1,17 @@
+TASK SimpleList continuation
+
+1. Add list "SelectionChanged" handler to list.
+
+2. If there is no selection then buttons
+"Edit" and "Delete" should be disabled.
+If an item is selected then enable the buttons.
+
+3. Delete will delete the item currently selected
+AFTER first asking user with OK, Cancel dialog
+box "Are you sure you want to delete name NAME?"
+
+4. Double-click on a list item will also
+act as if "Delete" button was pressed.
+
+5. Skip "Click" handler on "Edit" button for now.
+

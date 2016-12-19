@@ -1,0 +1,18 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:ToolBarMenuItemDemo"
+    Title="NestedToolBarItem Demo" Height="350" Width="525" Background="Aquamarine">
+    <Grid VerticalAlignment="Top">
+        <ToolBar Name="ToolBar1" Height="25" >
+             <!--Regular Items--> 
+            <Button Content="Item A"/>
+            <Button Content="Item B"/>
+             <!--SubItems Menu For Special Items--> 
+            <my:ToolBarMenuItem Header="Special Items" VerticalContentAlignment="Center" SubMenuPlacementMode="Bottom">
+               <MenuItem Header="Special Item 1" />
+               <MenuItem Header="Special Item 2" />
+            </my:ToolBarMenuItem>
+       </ToolBar>
+    </Grid>
+</Window>

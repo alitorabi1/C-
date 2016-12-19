@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\bin\Debug\VirtualOrNot.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\bin\Debug\VirtualOrNot.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\bin\Debug\VirtualOrNot.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\obj\Debug\VirtualOrNot.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\obj\Debug\VirtualOrNot.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\VirtualOrNot\obj\Debug\VirtualOrNot.pdb

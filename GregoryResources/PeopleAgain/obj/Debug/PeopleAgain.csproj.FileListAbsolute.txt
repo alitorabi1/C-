@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\bin\Debug\PeopleAgain.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\bin\Debug\PeopleAgain.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\bin\Debug\PeopleAgain.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\obj\Debug\PeopleAgain.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\obj\Debug\PeopleAgain.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleAgain\obj\Debug\PeopleAgain.pdb

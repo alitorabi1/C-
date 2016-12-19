@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\bin\Debug\PassByReference.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\bin\Debug\PassByReference.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\bin\Debug\PassByReference.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\obj\Debug\PassByReference.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\obj\Debug\PassByReference.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PassByReference\obj\Debug\PassByReference.pdb

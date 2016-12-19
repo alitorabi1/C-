@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\bin\Debug\FirstDatabase.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\bin\Debug\FirstDatabase.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\bin\Debug\FirstDatabase.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\obj\Debug\FirstDatabase.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\obj\Debug\FirstDatabase.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FirstDatabase\obj\Debug\FirstDatabase.pdb

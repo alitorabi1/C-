@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\bin\Debug\HelloSanta.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\bin\Debug\HelloSanta.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\bin\Debug\HelloSanta.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\obj\Debug\HelloSanta.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\obj\Debug\HelloSanta.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\HelloSanta\obj\Debug\HelloSanta.pdb

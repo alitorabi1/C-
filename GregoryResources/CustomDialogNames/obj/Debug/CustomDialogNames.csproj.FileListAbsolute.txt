@@ -1,0 +1,15 @@
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\bin\Debug\CustomDialogNames.exe.config
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\bin\Debug\CustomDialogNames.exe
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\bin\Debug\CustomDialogNames.pdb
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames_MarkupCompile.cache
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.g.resources
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.Properties.Resources.resources
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.exe
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\CustomDialogNames.pdb
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\EnterStringDialog.baml
+C:\Users\ipd\Documents\TestProject1\CustomDialogNames\obj\Debug\EnterStringDialog.g.cs

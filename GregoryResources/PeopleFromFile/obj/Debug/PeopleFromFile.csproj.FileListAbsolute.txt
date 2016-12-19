@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\bin\Debug\PeopleFromFile.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\bin\Debug\PeopleFromFile.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\bin\Debug\PeopleFromFile.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\obj\Debug\PeopleFromFile.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\obj\Debug\PeopleFromFile.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleFromFile\obj\Debug\PeopleFromFile.csprojResolveAssemblyReference.cache

@@ -1,0 +1,87 @@
+TASK   http://csharp.net-tutorials.com/
+
+Create project in VisualStudio called 'HelloSanta'.
+
+Ask user for their name and age,
+and then display it back.
+
+If the user's name provided is 'Santa' display "WOW. Santa" instead.
+
+EXAMPLE 1:
+What is your name? Jerry
+How old are you? 55
+Hi Jerry, you are 55.
+
+What is your name? Santa
+How old are you? 1087
+WOW. Santa!
+
+
+TASK
+
+Create new project 'PeopleList'.
+
+Define class Person with two fields:
+string name, int age.
+Add constructor for easy use.
+
+In the main method ask user repeatedly for
+name and age of a person and then instantiate
+class type Person with data provided.
+Add newly created object to List<Person>.
+Do this until name of person entered is empty.
+
+Using for-each loop display name and age of every person.
+Find the oldest person and display their name and age.
+
+
+C# DotNet Fundamentals - Day 01 - Homework
+
+Create a new project called 'Calculator'.
+You will implement a console program very similar to one you may know from previous Java courses.
+Your calculator will operate on integer numbers.
+
+Your task will be to infer from the examples below what the desired behaviour of the program is in various situations.
+
+Example session:
+
+What is your name? Jerry
+Hi Jerry, let's compute!
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: 3
+Enter the first parameter: 30
+Enter the second parameter: 4
+Here's your computation, Jerry: 30 * 4 = 120
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: 1
+Enter the first parameter: aaaa
+Error: invalid number entered. Try again.
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: 4
+Enter the first parameter: 10
+Enter the second parameter: 2
+Here's your computation, Jerry: 10 / 2 = 5
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: 7
+Error: invalid choice, try again.
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: AAA
+Error: invalid choice, try again.
+
+What operation would you like to do?
+1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.
+Your choice: 0
+Good bye, Jerry!
+
+
+

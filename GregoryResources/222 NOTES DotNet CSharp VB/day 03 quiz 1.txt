@@ -1,0 +1,143 @@
+QUIZ 1 - IPD-8 - DotNet level 2
+
+PROJECT 1 
+
+Create project Quiz1Enums.
+
+Imagine a company that keeps track of which employees work on which days of week. We want to analyze that information.
+
+Using Notepad, in bin/Debug create file "staffing.txt" with content similar to the following. The file indicated
+
+Jerry:Monday,Wednesday,Thursday,Sunday
+Theresa:Monday,Tuesday
+Melisa:Funday
+Maria:Wednesday,Sunday
+Terxyz123
+Jimmy:
+Michael:Saturday,Sunday
+
+In your program define the following enumeration
+[Flags]
+enum { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
+
+You will read in the data file and process it.
+
+Using enum with Flags annotation your program will print out a list of days in which company office is staffed, that is, at least one employee is working on that day.
+
+If a line has invalid structure - ignore it with a warning.
+
+For the example input file the output of the program will be:
+
+Ignoring invalid line Melisa:Funday
+Ignoring invalid line Terxyz123
+Office is staffed on Monday, Tuesday, Wednesday, Thursday, Saturday, Sunday.
+
+
+PROJECT 2
+
+Create project Quiz1Delegates.
+
+Replace method Main() with the code given at the end of this file.
+Add the 2 methods also provided below.
+
+Define an appropriate delegate type that may point to any or both of these methods.
+
+Define a variable of delegate type and initialize it to null.
+
+Inside switch/case change all 4 lines Console.WriteLine() used to describe the result into calls via delegate.
+
+At the beginning of the program, after you ask user for name ask user to make a choice:
+
+"Would you like to see results as 0) no output 1) normal 2) fancy output? or 3) both"
+Ask user for an integer 0, 1, 2 or 3.
+If invalid answer is provided assume 1.
+
+
+
+
+		void printResultNormal(string n, int v1, int v2, int r) {
+			Console.WriteLine("Here's your computation, {0}: {1} / {2} = {3}", n, v1, v2, r);
+		}
+		
+		void printResultFancy(string name, int v1, int v2, int r) {
+			Console.WriteLine("!!!###!!!--------------");
+			Console.WriteLine("{0}: {1} / {2} = {3}", n, v1, v2, r);
+			Console.WriteLine("!!!###!!!--------------");
+		}
+
+        static void Main(string[] args)
+        {
+            string name;
+            Console.Write("What is your name? ");
+            name = Console.ReadLine();
+            Console.WriteLine("Hi {0}, let's compute!", name);
+
+            while (true)
+            {
+                Console.WriteLine("What operation would you like to do?");
+                Console.WriteLine("1. Add, 2. Subtract, 3. Multiply, 4. Divide, 0. Exit.");
+                Console.Write("Your choice:");
+                int choice;
+                if (!int.TryParse(Console.ReadLine(), out choice))
+                {
+                    Console.WriteLine("Error: invalid choice, try again.");
+                    continue;
+                }
+                if ((choice < 0) || (choice > 4))
+                {
+                    Console.WriteLine("Error: invalid choice, try again.");
+                    continue;
+                }
+                //
+                if (choice == 0)
+                {
+                    Console.WriteLine("Good bye, {0}!", name);
+                    break;
+                }
+                // The rest goes here...
+                int val1, val2;
+                Console.Write("Enter the first parameter: ");
+                if (!int.TryParse(Console.ReadLine(), out val1))
+                {
+                    Console.WriteLine("Error: invalid value, try again.");
+                    continue;
+                }
+                Console.Write("Enter the second parameter: ");
+                if (!int.TryParse(Console.ReadLine(), out val2))
+                {
+                    Console.WriteLine("Error: invalid value, try again.");
+                    continue;
+                }
+                //
+                switch (choice)
+                {
+                    case 1: // add
+                        Console.WriteLine("Here's your computation, {0}: {1} / {2} = {3}",
+                            name, val1, val2, val1 + val2);
+                        break;
+                    case 2: // sub
+                        Console.WriteLine("Here's your computation, {0}: {1} / {2} = {3}",
+                            name, val1, val2, val1 - val2);
+                        break;
+                    case 3: // mul
+                        Console.WriteLine("Here's your computation, {0}: {1} / {2} = {3}",
+                            name, val1, val2, val1 * val2);
+                        break;
+                    case 4: // div
+                        Console.WriteLine("Here's your computation, {0}: {1} / {2} = {3}",
+                            name, val1, val2, val1 / val2);
+                        break;
+                    default:
+                        Console.WriteLine("Oops. I don't know this operation");
+                        break;
+                }
+
+            }
+
+        }
+
+
+
+
+
+

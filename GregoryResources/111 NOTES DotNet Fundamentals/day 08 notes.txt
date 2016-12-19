@@ -1,0 +1,36 @@
+<ComboBox Name="cmbCountry"
+	SelectionChanged="cmbCountry_SelectionChanged">
+       <ComboBoxItem>-- select country --</ComboBoxItem>
+       <ComboBoxItem>Canada</ComboBoxItem>
+       <ComboBoxItem>USA</ComboBoxItem>
+		<ComboBoxItem>Other</ComboBoxItem>
+</ComboBox>
+
+private void cmbColors_SelectionChanged(
+	object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+   {
+	   Console.WriteLine("Selection Changed");
+    ComboBoxItem item = (cmbColors.SelectedItem as ComboBoxItem).GetValue(null, null);
+	if (item.Content == null) {
+		return;
+	}
+	string country = item.Content.ToString();
+	if (country == "Canada") {
+		// enable tbPassportNo, tbPostalCode
+	} else {
+		// disable tbPassportNo, tbPostalCode
+		// set "" to both text boxes
+	}
+}
+
+NOT EQUIVALENT:
+ "\n"
+@"\n"
+
+EQUIVALENT:
+ "c:\\windows\\system32\\drivers"
+@"c:\windows\system32\drivers"
+
+EQUIVALENT:
+@"\d+"
+ "\\d+"

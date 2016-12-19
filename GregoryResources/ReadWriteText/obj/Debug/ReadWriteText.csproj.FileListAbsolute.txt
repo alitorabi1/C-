@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\bin\Debug\ReadWriteText.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\bin\Debug\ReadWriteText.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\bin\Debug\ReadWriteText.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\obj\Debug\ReadWriteText.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\obj\Debug\ReadWriteText.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ReadWriteText\obj\Debug\ReadWriteText.pdb

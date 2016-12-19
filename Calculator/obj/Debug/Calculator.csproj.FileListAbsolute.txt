@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\bin\Debug\Calculator.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\bin\Debug\Calculator.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\bin\Debug\Calculator.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\obj\Debug\Calculator.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Calculator\obj\Debug\Calculator.pdb

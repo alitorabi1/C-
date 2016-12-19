@@ -1,0 +1,17 @@
+SQL INJECTION EXAMPLE
+
+int age = 55;
+string name = "'jerry'); DELETE FROM Person WHERE (1 = 1";
+
+string query = string.Format("INSERT INTO Person (Age, Name)
+	VALUES ({0}, {1})", age, name);
+	
+	
+INSERT INTO Person (Age, Name)
+	VALUES (55,'jerry');
+	DELETE FROM Person WHERE (1 = 1)
+		
+INSERT INTO Person (Age, Name) VALUES (55, 
+'\'jerry\'); DELETE FROM Person WHERE (1 = 1')
+
+

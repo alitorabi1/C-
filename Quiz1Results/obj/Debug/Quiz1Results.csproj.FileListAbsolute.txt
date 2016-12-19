@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\bin\Debug\Quiz1Results.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\bin\Debug\Quiz1Results.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\bin\Debug\Quiz1Results.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\obj\Debug\Quiz1Results.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\obj\Debug\Quiz1Results.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Results\obj\Debug\Quiz1Results.pdb

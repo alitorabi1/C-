@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\bin\Debug\ZooGrid.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\bin\Debug\ZooGrid.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\bin\Debug\ZooGrid.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooGrid\obj\Debug\ZooGrid.csprojResolveAssemblyReference.cache

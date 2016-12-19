@@ -1,0 +1,11 @@
+Make sure every does Scrum every morning and writes it
+into dailyscrum.txt file and commits to GitHub.
+
+Azure services setup
+
+Watch Agile Methodology video
+
+Kanban - setup and use (project planning)
+
+
+

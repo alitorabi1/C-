@@ -1,0 +1,14 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\bin\Debug\FirstWpfApp.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\bin\Debug\FirstWpfApp.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\bin\Debug\FirstWpfApp.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp_MarkupCompile.lref
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\FirstWpfApp\obj\Debug\FirstWpfApp.pdb

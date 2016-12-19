@@ -1,0 +1,5 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\VirtualOrNot\bin\Debug\VirtualOrNot.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\VirtualOrNot\bin\Debug\VirtualOrNot.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\VirtualOrNot\bin\Debug\VirtualOrNot.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\VirtualOrNot\obj\Debug\VirtualOrNot.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\VirtualOrNot\obj\Debug\VirtualOrNot.pdb

@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\bin\Debug\GeoObj.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\bin\Debug\GeoObj.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\bin\Debug\GeoObj.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\obj\Debug\GeoObj.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\obj\Debug\GeoObj.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\GeoObj\obj\Debug\GeoObj.pdb

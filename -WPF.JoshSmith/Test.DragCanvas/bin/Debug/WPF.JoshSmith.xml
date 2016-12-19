@@ -1,0 +1,1617 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WPF.JoshSmith</name>
+    </assembly>
+    <members>
+        <member name="T:WPF.JoshSmith.Adorners.DragAdorner">
+            <summary>
+            A lightweight adorner which renders a visual that can follow the mouse cursor, 
+            such as during a drag-and-drop operation.
+            </summary>
+            <remarks>
+            Used In: http://www.codeproject.com/KB/WPF/ListViewDragDropManager.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.DragAdorner.#ctor(System.Windows.UIElement,System.Windows.Size,System.Windows.Media.Brush)">
+            <summary>
+            Initializes a new instance of DragAdorner.
+            </summary>
+            <param name="adornedElement">The element being adorned.</param>
+            <param name="size">The size of the adorner.</param>
+            <param name="brush">A brush with which to paint the adorner.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Adorners.SingleChildAdornerBase">
+            <summary>
+            Abstract class used to create adorners with only one visual child.
+            By default the visual child is not added to the adorner's visual or logical tree.
+            Subclasses can add the child to the visual and/or logical trees if necessary.
+            This class also provides support for moving the adorner via the public OffsetTop
+            and OffsetLeft properties.
+            </summary>
+            <remarks>
+            Initial Concept: http://blogs.msdn.com/marcelolr/archive/2006/03/03/543301.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.Adorners.SingleChildAdornerBase.child">
+            <summary>
+            The child element displayed in the adorner.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.#ctor(System.Windows.UIElement)">
+            <summary>
+            Protected constructor.
+            </summary>
+            <param name="adornedElement">The element to which the adorner will be bound.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.GetDesiredTransform(System.Windows.Media.GeneralTransform)">
+            <summary>
+            Override.
+            </summary>
+            <param name="transform"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WPF.JoshSmith.Adorners.SingleChildAdornerBase.OffsetLeft">
+            <summary>
+            Gets/sets the horizontal offset of the adorner.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.SetOffsets(System.Double,System.Double)">
+            <summary>
+            Updates the location of the adorner in one atomic operation.
+            </summary>
+            <param name="left"></param>
+            <param name="top"></param>
+        </member>
+        <member name="P:WPF.JoshSmith.Adorners.SingleChildAdornerBase.OffsetTop">
+            <summary>
+            Gets/sets the vertical offset of the adorner.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Override.
+            </summary>
+            <param name="constraint"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Override.
+            </summary>
+            <param name="finalSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.SingleChildAdornerBase.GetVisualChild(System.Int32)">
+            <summary>
+            Override.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WPF.JoshSmith.Adorners.SingleChildAdornerBase.VisualChildrenCount">
+            <summary>
+            Override.  Always returns 1.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Adorners.UIElementAdorner">
+            <summary>
+            An adorner which can display one and only one UIElement.  The element
+            is added to the adorner's visual and logical trees, enabling it to 
+            particpate in dependency property value inheritance, amongst other things.
+            </summary>
+            <remarks>
+            Used In: http://www.codeproject.com/KB/WPF/SmartTextBox.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Adorners.UIElementAdorner.#ctor(System.Windows.UIElement,System.Windows.UIElement)">
+            <summary>
+            Constructor.  Adds 'childElement' to the adorner's visual and logical trees.
+            </summary>
+            <param name="adornedElement">The element to which the adorner will be bound.</param>
+            <param name="childElement">The element to be displayed in the adorner.</param>
+        </member>
+        <member name="P:WPF.JoshSmith.Adorners.UIElementAdorner.LogicalChildren">
+            <summary>
+            Override.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.CenteredContentControl">
+            <summary>
+            A ContentControl which exposes two dependency properties, CenterX and CenterY.
+            Those properties can be bound to if this element is in a Canvas, and it is positioned
+            via the Left and Top attached properties of the Canvas class.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.CenteredContentControl.#ctor">
+            <summary>
+            Instance constructor.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.CenteredContentControl.CenterXProperty">
+            <summary>
+            Identifier for the read-only CenterX dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.CenteredContentControl.CenterYProperty">
+            <summary>
+            Identifier for the read-only CenterX dependency property.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.CenteredContentControl.CenterX">
+            <summary>
+            Returns the horizontal offset of this element within its containing Canvas.
+            Note, this property only returns a meaningful value if the Canvas.Left attached
+            property is set on this element.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.CenteredContentControl.CenterY">
+            <summary>
+            Returns the vertical offset of this element within its containing Canvas.
+            Note, this property only returns a meaningful value if the Canvas.Top attached
+            property is set on this element.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.CenteredContentControl.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the CenterX and CenterY properties.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.RoutedDataTemplateSelector">
+            <summary>
+            A DataTemplateSelector which raises the bubbling TemplateRequested routed event
+            on the templated element when a DataTemplate must be chosen.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/RoutedTemplateSelection.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.RoutedDataTemplateSelector.TemplateRequestedEvent">
+            <summary>
+            Represents the TemplateRequested bubbling routed event.
+            </summary>
+        </member>
+        <member name="E:WPF.JoshSmith.Controls.RoutedDataTemplateSelector.TemplateRequested">
+            <summary>
+            Raised when a DataTemplate is requested on an element.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.RoutedDataTemplateSelector.SelectTemplate(System.Object,System.Windows.DependencyObject)">
+            <summary>
+            Raises the TemplateRequested event up the 'container' element's logical tree
+            so that the DataTemplate to return can be determined.
+            </summary>
+            <param name="item">The data object being templated.</param>
+            <param name="container">The element which contains the data object.</param>
+            <returns>The DataTemplate to apply.</returns>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.TemplateRequestedEventArgs">
+            <summary>
+            Event argument used by the RoutedDataTemplateSelector's TemplateRequested event.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.TemplateRequestedEventArgs.#ctor(System.Windows.RoutedEvent,System.Windows.UIElement,System.Object)">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.TemplateRequestedEventArgs.DataObject">
+            <summary>
+            Returns the data item being templated.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.TemplateRequestedEventArgs.TemplateToUse">
+            <summary>
+            Gets/sets the DataTemplate to apply to the templated element.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.TemplateRequestedEventArgs.TemplatedElement">
+            <summary>
+            The UIElement which contains the data object for which a template must be specified.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.TemplateRequestedEventHandler">
+            <summary>
+            Delegate used to handle the RoutedDataTemplateSelector's TemplateRequested event.
+            </summary>
+            <param name="sender">The element on which the event was raised.</param>
+            <param name="e">Set the SelectedTemplate property to the DataTemplate to apply to the Source element.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.SlidingListBox">
+            <summary>
+            Provides an animated slide effect when ListBoxItems are selected.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/SlidingListBox.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.SlidingListBox.SlideDirectionProperty">
+            <summary>
+            Identifies the SlidingListBox's SlideDirection dependency property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.SlidingListBox.SlideDistanceProperty">
+            <summary>
+            Identifies the SlidingListBox's SlideDistance dependency property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.SlidingListBox.SlideDurationProperty">
+            <summary>
+            Identifies the SlidingListBox's SlideDuration dependency property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SlidingListBox.SlideDirection">
+            <summary>
+            Gets/sets the direction in which ListBoxItems are slid.  This is a dependency property.
+            The default value is 'Right'.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SlidingListBox.SlideDistance">
+            <summary>
+            Gets/sets the number of logical pixels ListBoxItems are slid.  This is a dependency property.
+            The default value is 20.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SlidingListBox.SlideDuration">
+            <summary>
+            Gets/sets the number of milliseconds the sliding animation takes for a ListBoxItems.  
+            This is a dependency property. The default value is 200.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SlidingListBox.OnSelectionChanged(System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Overrides the base implementation to animate the ListBoxItems.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.ListBoxItemSlideDirection">
+            <summary>
+            Represents the four directions in which a ListBoxItem can be slid by the SlidingListBox.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.ListBoxItemSlideDirection.Right">
+            <summary>
+            The ListBoxItems slide to the right when selected.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.ListBoxItemSlideDirection.Left">
+            <summary>
+            The ListBoxItems slide to the left when selected.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.ListBoxItemSlideDirection.Up">
+            <summary>
+            The ListBoxItems slide up when selected.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.ListBoxItemSlideDirection.Down">
+            <summary>
+            The ListBoxItems slide down when selected.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.SmartTextBox">
+            <summary>
+            A TextBox with support for displaying a list of suggestions when the user
+            misspells a word.  The user presses the F1 key to display the list of suggestions.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/SmartTextBox.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.#ctor">
+            <summary>
+            Initializes a new instance of SmartTextBox.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SmartTextBox.AreSuggestionsVisible">
+            <summary>
+            Returns true if the list of suggestions is currently displayed.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.GetSpellingError">
+            <summary>
+            Returns the SpellingError for the word at the current caret index, or null
+            if the current word is not misspelled.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.HideSuggestions">
+            <summary>
+            Hides the list of suggestions and returns input focus to the input area.  
+            If the list of suggestions is not already displayed, nothing happens.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SmartTextBox.IsCurrentWordMisspelled">
+            <summary>
+            Returns true if the word at the caret index is misspelled.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.ShowSuggestions">
+            <summary>
+            Shows the list of suggestions.  If the current word is not misspelled
+            this method does nothing.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.SmartTextBox.SuggestionListBoxStyleProperty">
+            <summary>
+            Represents the SuggestionListBoxStyle property.  This field is read-only. 
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.SmartTextBox.SuggestionListBoxStyle">
+            <summary>
+            Gets/sets the Style applied to the ListBox which displays spelling suggestions.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Hides the list of suggestions.
+            </summary>		
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Shows/hides the list of suggestions.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.OnRenderSizeChanged(System.Windows.SizeChangedInfo)">
+            <summary>
+            Ensures that the list of suggestions is hidden when the TextBox is resized.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.SmartTextBox.OnTextChanged(System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Hides the list of suggestions if a spelling error no longer exists at the
+            current caret location in the TextBox.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.Utilities.MouseUtilities">
+            <summary>
+            Provides access to the mouse location by calling unmanaged code.
+            </summary>
+            <remarks>
+            This class was written by Dan Crevier (Microsoft).  
+            http://blogs.msdn.com/llobo/archive/2006/09/06/Scrolling-Scrollviewer-on-Mouse-Drag-at-the-boundaries.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Utilities.MouseUtilities.GetMousePosition(System.Windows.Media.Visual)">
+            <summary>
+            Returns the mouse cursor location.  This method is necessary during 
+            a drag-drop operation because the WPF mechanisms for retrieving the
+            cursor coordinates are unreliable.
+            </summary>
+            <param name="relativeTo">The Visual to which the mouse coordinates will be relative.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.Validation.RegexValidationRule">
+            <summary>
+            A <see cref="T:System.Windows.Controls.ValidationRule"/>-derived class which 
+            supports the use of regular expressions for validation.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/RegexValidationInWPF.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidationRule.#ctor">
+            <summary>
+            Parameterless constructor.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidationRule.#ctor(System.String)">
+            <summary>
+            Creates a RegexValidationRule with the specified regular expression.
+            </summary>
+            <param name="regexText">The regular expression used by the new instance.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidationRule.#ctor(System.String,System.String)">
+            <summary>
+            Creates a RegexValidationRule with the specified regular expression
+            and error message.
+            </summary>
+            <param name="regexText">The regular expression used by the new instance.</param>
+            <param name="errorMessage">The error message used when validation fails.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidationRule.#ctor(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            Creates a RegexValidationRule with the specified regular expression,
+            error message, and RegexOptions.
+            </summary>
+            <param name="regexText">The regular expression used by the new instance.</param>
+            <param name="errorMessage">The error message used when validation fails.</param>
+            <param name="regexOptions">The RegexOptions used by the new instance.</param>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.Validation.RegexValidationRule.ErrorMessage">
+            <summary>
+            Gets/sets the error message to be used when validation fails.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.Validation.RegexValidationRule.RegexOptions">
+            <summary>
+            Gets/sets the RegexOptions to be used during validation.
+            This property's default value is 'None'.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Controls.Validation.RegexValidationRule.RegexText">
+            <summary>
+            Gets/sets the regular expression used during validation.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidationRule.Validate(System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Validates the 'value' argument using the regular expression and 
+            RegexOptions associated with this object.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Controls.Validation.RegexValidator">
+            <summary>
+            This static class provides attached properties which supply 
+            validation of the text in a TextBox, using regular expressions.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/RegexValidationInWPF.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.Validation.RegexValidator.ErrorMessageProperty">
+            <summary>
+            Identifies the RegexValidator's ErrorMessage attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.GetErrorMessage(System.Windows.Controls.TextBox)">
+            <summary>
+            Returns the error message used when validation fails for the
+            specified TextBox.
+            </summary>
+            <param name="textBox">The TextBox whose error message is returned.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.SetErrorMessage(System.Windows.Controls.TextBox,System.String)">
+            <summary>
+            Sets the error message used when validation fails for the 
+            specified TextBox.
+            </summary>
+            <param name="textBox">The TextBox being validated.</param>
+            <param name="value">The error message.</param>
+        </member>
+        <member name="F:WPF.JoshSmith.Controls.Validation.RegexValidator.RegexTextProperty">
+            <summary>
+            Identifies the RegexValidator's RegexText attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.GetRegexText(System.Windows.Controls.TextBox)">
+            <summary>
+            Returns the regular expression used to validate the specified TextBox.
+            </summary>
+            <param name="textBox">The TextBox whose regular expression is returned.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.SetRegexText(System.Windows.Controls.TextBox,System.String)">
+            <summary>
+            Sets the regular expression used to validate the 
+            specified TextBox.
+            </summary>
+            <param name="textBox">The TextBox being validated.</param>
+            <param name="value">The regular expression.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.OnAttachedPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked whenever an attached property of the 
+            RegexValidator is modified for a TextBox.
+            </summary>
+            <param name="depObj">A TextBox.</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.GetRegexValidationRuleForTextBox(System.Windows.Controls.TextBox)">
+            <summary>
+            Returns a RegexValidationRule to be used for validating the specified TextBox.
+            If the TextBox is not yet initialized, this method returns null.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Controls.Validation.RegexValidator.VerifyRegexValidationRule(System.Windows.Controls.TextBox)">
+            <summary>
+            Creates or modifies the RegexValidationRule in the TextBox's Text property binding
+            to use the current values of the attached properties exposed by this class.
+            </summary>
+            <param name="textBox">The TextBox being validated.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Markup.IfFullTrustExtension">
+            <summary>
+            This markup extension conditionally instantiates the XAML you pass it
+            if and only if the application is running in full-trust.
+            </summary>
+            <remarks>
+            Documentation: http://joshsmithonwpf.wordpress.com/2008/06/12/writing-xaml-that-gracefully-degrades-in-partial-trust-scenarios/
+            </remarks>
+        </member>
+        <member name="P:WPF.JoshSmith.Markup.IfFullTrustExtension.Xaml">
+            <summary>
+            The XAML that should be turned into live objects
+            if running with full-trust from the CLR.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Markup.IfFullTrustExtension.ProvideValue(System.IServiceProvider)">
+            <summary>
+            Returns the objects declared by the Xaml property
+            or null, if running in partial-trust.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.ConceptualPanel">
+            <summary>
+            This panel maintains a collection of conceptual children that are neither logical
+            children nor visual children of the panel.  This allows those visuals to be connected 
+            to other parts of the UI, if necessary, or even to remain disconnected. 
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.#ctor">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.CreateUIElementCollection(System.Windows.FrameworkElement)">
+            <summary>
+            Creates a disconnected UIElement collection.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.OnChildAdded(System.Windows.UIElement)">
+            <summary>
+            Subclasses override this to perform an action when a conceptual child is added to the panel.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.OnChildRemoved(System.Windows.UIElement)">
+            <summary>
+            Subclasses override this to perform an action when a conceptual child is removed from the panel.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.OnChildrenCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            For simplicity, this class will listen to change notifications on the DisconnectedUIElementCollection
+            and provide them to descendants through the OnChildAdded and OnChildRemoved members.  
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.ConceptualPanel.VisualChildrenCount">
+            <summary>
+            Returns the number of visual children.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.GetVisualChild(System.Int32)">
+            <summary>
+            Gets the visual child at the specified index.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.ConceptualPanel.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)">
+            <summary>
+            Invoked when the panel's children collection is modified.
+            </summary>
+            <param name="visualAdded"></param>
+            <param name="visualRemoved"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.#ctor(System.Windows.UIElement)">
+            <summary>
+            This collection can be used by a panel to maintain a collection of child elements 
+            that are *not* connected to their owner as visual children or logical children.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Add(System.Windows.UIElement)">
+            <summary>
+            Adds the element to the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Clear">
+            <summary>
+            Removes all elements from the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Contains(System.Windows.UIElement)">
+            <summary>
+            Determines whether an element is in the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the collection into the Array
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.CopyTo(System.Windows.UIElement[],System.Int32)">
+            <summary>
+            Strongly typed version of CopyTo
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Count">
+            <summary>
+            Gets the number of elements in the collection.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that can iterate through the collection.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.IndexOf(System.Windows.UIElement)">
+            <summary>
+            Returns the index of the element in the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Insert(System.Int32,System.Windows.UIElement)">
+            <summary>
+            Inserts an element into the DisconnectedUIElementCollection at the specified index
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Remove(System.Windows.UIElement)">
+            <summary>
+            Removes the specified element from the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the element at the specified index from the DisconnectedUIElementCollection 
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.RemoveRange(System.Int32,System.Int32)">
+            <summary>
+            Removes the specified number of elements starting at the specified index from the DisconnectedUIElementCollection
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.Initialize">
+            <summary>
+            The Initialize method is simply exposed as an accessible member that can
+            be called from the ConceptualPanel's Loaded event.  Accessing this member 
+            via the Children property will implicitly cause CreateUIElementCollection
+            to be called to create the disconnected collection.  This method exists
+            because simple access of a property like Count might be optimized away by 
+            an aggressive compiler.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.VerifyWriteAccess">
+            <summary>
+            If the owner is an items host, we need to enforce the rule that elements
+            cannot be explicitly added to the disconnected collection.  However, it is still
+            possible to modify the visual or logical "connected" children of a ConceptualPanel 
+            while it is an items host by simply calling the AddVisualChild, RemoveVisualChild, 
+            AddLogicalChild, or RemoveLogicalChild methods.  Logic within ConceptualPanel
+            ensures that any visual children added in this manner will be returned within 
+            a GetVisualChild() enumeration.
+            </summary>
+        </member>
+        <member name="E:WPF.JoshSmith.Panels.DisconnectedUIElementCollection.CollectionChanged">
+            <summary>
+            Since the owner of the collection is not the parent of the elements, it needs
+            a mechanism by which to monitor its collection of child visuals.
+            This class provides such notifications via INotifyCollectionChanged.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.DragCanvas">
+            <summary>
+            A Canvas which manages dragging of the UIElements it contains.  
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/DraggingElementsInCanvas.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.#ctor">
+            <summary>
+            Initializes a new instance of DragCanvas.  UIElements in
+            the DragCanvas will immediately be draggable by the user.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.DragCanvas.CanBeDraggedProperty">
+            <summary>
+            Identifies the RegexValidator's ErrorMessage attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.GetCanBeDragged(System.Windows.UIElement)">
+            <summary>
+            Returns true if the specified UIElement is allowed to be dragged, else false.
+            </summary>
+            <param name="uiElement">The UIElement to check for dragging permission.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.SetCanBeDragged(System.Windows.UIElement,System.Boolean)">
+            <summary>
+            Sets the CanBeDragged attached property for the specified UIElement.
+            </summary>
+            <param name="uiElement">The UIElement to set the property for.</param>
+            <param name="value">Pass true if the element can be dragged, else false.</param>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.DragCanvas.AllowDraggingProperty">
+            <summary>
+            Identifies the DragCanvas's AllowDragging dependency property.
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.DragCanvas.AllowDragging">
+            <summary>
+            Gets/sets whether elements in the DragCanvas should be draggable by the user.
+            The default value is true.  This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.DragCanvas.AllowDragOutOfViewProperty">
+            <summary>
+            Identifies the DragCanvas's AllowDragOutOfView dependency property.
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.DragCanvas.AllowDragOutOfView">
+            <summary>
+            Gets/sets whether the user should be able to drag elements in the DragCanvas out of
+            the viewable area.  The default value is false.  This is a dependency property.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.BringToFront(System.Windows.UIElement)">
+            <summary>
+            Assigns the element a z-index which will ensure that 
+            it is in front of every other element in the Canvas.
+            The z-index of every element whose z-index is between 
+            the element's old and new z-index will have its z-index 
+            decremented by one.
+            </summary>
+            <param name="element">
+            The element to be sent to the front of the z-order.
+            </param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.SendToBack(System.Windows.UIElement)">
+            <summary>
+            Assigns the element a z-index which will ensure that 
+            it is behind every other element in the Canvas.
+            The z-index of every element whose z-index is between 
+            the element's old and new z-index will have its z-index 
+            incremented by one.
+            </summary>
+            <param name="element">
+            The element to be sent to the back of the z-order.
+            </param>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.DragCanvas.ElementBeingDragged">
+            <summary>
+            Returns the UIElement currently being dragged, or null.
+            </summary>
+            <remarks>
+            Note to inheritors: This property exposes a protected 
+            setter which should be used to modify the drag element.
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.FindCanvasChild(System.Windows.DependencyObject)">
+            <summary>
+            Walks up the visual tree starting with the specified DependencyObject, 
+            looking for a UIElement which is a child of the Canvas.  If a suitable 
+            element is not found, null is returned.  If the 'depObj' object is a 
+            UIElement in the Canvas's Children collection, it will be returned.
+            </summary>
+            <param name="depObj">
+            A DependencyObject from which the search begins.
+            </param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Overrides base implementation to support element dragging.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.OnPreviewMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Overrides base implementation to support element dragging.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.OnPreviewMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Overrides base implementation to support element dragging.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.CalculateDragElementRect(System.Double,System.Double)">
+            <summary>
+            Returns a Rect which describes the bounds of the element being dragged.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.ResolveOffset(System.Double,System.Double,System.Boolean@)">
+            <summary>
+            Determines one component of a UIElement's location 
+            within a Canvas (either the horizontal or vertical offset).
+            </summary>
+            <param name="side1">
+            The value of an offset relative to a default side of the 
+            Canvas (i.e. top or left).
+            </param>
+            <param name="side2">
+            The value of the offset relative to the other side of the 
+            Canvas (i.e. bottom or right).
+            </param>
+            <param name="useSide1">
+            Will be set to true if the returned value should be used 
+            for the offset from the side represented by the 'side1' 
+            parameter.  Otherwise, it will be set to false.
+            </param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.DragCanvas.UpdateZOrder(System.Windows.UIElement,System.Boolean)">
+            <summary>
+            Helper method used by the BringToFront and SendToBack methods.
+            </summary>
+            <param name="element">
+            The element to bring to the front or send to the back.
+            </param>
+            <param name="bringToFront">
+            Pass true if calling from BringToFront, else false.
+            </param>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.LogicalPanel">
+            <summary>
+            This panel extends ConceptualPanel by ensuring that its conceptual children are also "logical" children.  
+            Because certain things like property inheritance and resource resolution work through the logical
+            tree, this allows the disconnected visuals to be connected to the panel's ancestor tree
+            in a logical manner without being part of it's visual tree. 
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.LogicalPanel.OnChildAdded(System.Windows.UIElement)">
+            <summary>
+            Adds the child element to the logical tree.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.LogicalPanel.OnChildRemoved(System.Windows.UIElement)">
+            <summary>
+            Removes the child element from the logical tree.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.LogicalPanel.OnLogicalChildrenChanged(System.Windows.UIElement,System.Windows.UIElement)">
+            <summary>
+            This class uses the OnLogicalChildrenChanged method to provide notification to descendants 
+            when its logical children change.  Note that this is intentionally
+            similar to the OnVisualChildrenChanged approach supported by all visuals.
+            </summary>
+            <param name="childAdded"></param>
+            <param name="childRemoved"></param>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.Panel3D">
+            <summary>
+            A Panel that displays its children in a Viewport3D.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/panel3d.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.ORIGIN_POINT">
+            <summary>
+            (0, 0)
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._abortMoveItems">
+            <summary>
+            Keeps track of whether the current call to MoveItems() should execute the completion logic
+            or not, based on whether an item in the UI was selected during the item animations.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._hasAddedViewport">
+            <summary>
+            Keeps track of whether _viewport has been added to the panel's visual children collection yet.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._itemsOwner">
+            <summary>
+            If this panel is the items host for a Selector-derived control, this references that control.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._models">
+            <summary>
+            Viewport2DVisual3D objects for every item in this panel's Children collection.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._moveItemsRequestQueue">
+            <summary>
+            Holds requests to move the 3D models that arrived while the items were already being moved.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._moveItemsCompletionTimer">
+            <summary>
+            Ticks when the items have finished moving and it is time to clean up.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._viewport">
+            <summary>
+            The Viewport3D that hosts the Viewport2DVisual3D objects stored in the _models field.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D._elementTo3DModelMap">
+            <summary>
+            A mapping between the 2D children of this panel and the 3D objects displayed in _viewport.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.Panel3D.MoveItemsRequest">
+            <summary>
+            Stores data pertaining to a call to MoveItems().
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.#ctor">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.ItemsHostLoadedEvent">
+            <summary>
+            Identifies the ItemsHostLoaded bubbling event.
+            </summary>
+        </member>
+        <member name="E:WPF.JoshSmith.Panels.Panel3D.ItemsHostLoaded">
+            <summary>
+            Raised when the Panel3D is loaded, only when acting as an items host for an ItemsControl.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.AllowTransparency">
+            <summary>
+            Gets/sets whether the models in the scene support being truly translucent, such 
+            that the models behind them are visible through the models in front.
+            The default value is false.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.AllowTransparencyProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.AutoAdjustOpacity">
+            <summary>
+            Gets/sets whether the Panel3D automatically adjusts each model's opacity based on its visual index.
+            The default value is true.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.AutoAdjustOpacityProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.Camera">
+            <summary>
+            Gets/sets a camera used to view the 3D scene.
+            The default camera is declared as:
+                &lt;PerspectiveCamera 
+                     LookDirection="2, 0, -10" 
+                     Position="-3.18, 2, 3" 
+                     UpDirection="0, 1, 0" 
+                     /&gt;
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.CameraProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.DefaultAnimationLength">
+            <summary>
+            The default amount of time it takes to move items.
+            This value can be overridden when calling MoveItems().
+            The default value is 700 milliseconds.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.DefaultAnimationLengthProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.IsMovingItems">
+            <summary>
+            Returns whether or not the models displayed in this Panel3D are currently 
+            animating to new locations as a result of calling the MoveItems method.
+            This is a read-only dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.IsMovingItemsProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.ItemLayoutDirection">
+            <summary>
+            Gets/sets a Vector3D that describes the direction in which the items are positioned.  
+            The default value is (-1, +1.3, -7).
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.ItemLayoutDirectionProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Panel3D.MaxVisibleModels">
+            <summary>
+            Gets/sets the maximum number of 3D models that can be
+            displayed at once.  The default value is 10.  The minimum
+            value for this property is 2.  This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Panels.Panel3D.MaxVisibleModelsProperty">
+            <summary>
+            Readonly field.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.MoveItems(System.Int32,System.Boolean)">
+            <summary>
+            Moves the items forward or backward over the default animation length.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.MoveItems(System.Int32,System.Boolean,System.TimeSpan)">
+            <summary>
+            Moves the items forward or backward over the specified animation length.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.OnMoveItemsCompleted(System.Object,System.EventArgs)">
+            <summary>
+            Invoked when the items stop moving, due to a call to MoveItems().
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.GetVisibleIndexFromChildIndex(System.Int32)">
+            <summary>
+            Returns the visible index of the 3D model that represents
+            the 2D element at the specified index in the panel's Children
+            collection.  Both index values are zero-based.  The visible
+            index of the front model is 0, and each successive model in the
+            3D scene has a visible index one higher than the previous model.
+            If the element at the specified index is not currently in the
+            viewport, the visible index is -1.
+            </summary>
+            <param name="childIndex">A zero-based index of an element in the Children collection.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Arranges the Viewport3D in the panel.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Measures the size needed to display the Viewport3D.
+            </summary>
+            <param name="availableSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.OnLogicalChildrenChanged(System.Windows.UIElement,System.Windows.UIElement)">
+            <summary>
+            Adds or removes a model in the scene.
+            </summary>
+            <param name="elementAdded"></param>
+            <param name="elementRemoved"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.BuildModel(System.Windows.UIElement)">
+            <summary>
+            Returns an interactive 3D model that hosts
+            the specified UIElement.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.BuildScene">
+            <summary>
+            Tears down the 3D scene and rebuilds it, so that newly added
+            or removed models are taken into account.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.BuildScene(System.Windows.Media.Media3D.Viewport2DVisual3D)">
+            <summary>
+            Tears down the current 3D scene and constructs a new one 
+            where the specified model is the front object in view.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.OnIsItemsHostChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Invoked when the panel is added to or removed from a list control.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Panel3D.ConfigureModel(System.Windows.Media.Media3D.Viewport2DVisual3D,System.Int32)">
+            <summary>
+            Adjusts a 3D model's location and opacity.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Panels.Viewport3DEx">
+            <summary>
+            A Viewport3D subclass that shields Panel3D from needing to arrange the 
+            3D models in a specific order.  For models to be truly transparent, and
+            have the models 'behind' them be visible, they must exist in the Children
+            collection in the opposite order of the way you see them on-screen.  The
+            front model must be the last child, and the back model must be the first
+            child (not including the scene's light source).
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.AddToBack(System.Windows.Media.Media3D.Viewport2DVisual3D)">
+            <summary>
+            Adds the specified model to the rear of the 3D scene.
+            </summary>
+            <param name="model">The rear item in the scene.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.AddToFront(System.Windows.Media.Media3D.Viewport2DVisual3D)">
+            <summary>
+            Adds the specified model to the front of the 3D scene.
+            </summary>
+            <param name="model">The front item in the scene.</param>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Viewport3DEx.AllowTransparency">
+            <summary>
+            Gets/sets whether the models in the scene support 
+            showing the models behind through them.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Viewport3DEx.BackModel">
+            <summary>
+            Returns the model at the back of the 3D scene.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.GetModelAt(System.Int32)">
+            <summary>
+            Returns the model at the specified model index.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.GetModels">
+            <summary>
+            Returns an enumerable object with which the models are enumerated, from front to back.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Viewport3DEx.FrontModel">
+            <summary>
+            Returns the model at the front of the 3D scene.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.GetVisualIndex(System.Windows.Media.Media3D.Viewport2DVisual3D)">
+            <summary>
+            Returns the index of the specified model where 0 is the front item.
+            If the model is not in the scene, returns -1.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Panels.Viewport3DEx.ModelCount">
+            <summary>
+            Returns the number of Viewport2DVisual3D objects in the Children collection.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.RemoveAllModels">
+            <summary>
+            Removes all of the models from the scene.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.RemoveBackModel">
+            <summary>
+            Removes and returns the back model in the scene.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Panels.Viewport3DEx.RemoveFrontModel">
+            <summary>
+            Removes and returns the front model in the scene.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Data.DataContextSpy">
+            <summary>
+            When added to an element's Resources collection it's DataContext property
+            references the containing element's DataContext.  This enables DependencyObjects
+            not in the element tree to bind to the tree's DataContext.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/ArtificialInheritanceCxt.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.DataContextSpy.#ctor">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Data.DataContextSpy.IsSynchronizedWithCurrentItem">
+            <summary>
+            Gets/sets whether the spy will return the CurrentItem of the 
+            ICollectionView that wraps the data context, assuming it is
+            a collection of some sort.  If the data context is not a 
+            collection, this property has no effect. 
+            The default value is true.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Data.DataContextSpy.DataContext">
+            <summary>
+            Gets/sets the DataContext of an element in an element tree.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Data.DataContextSpy.DataContextProperty">
+            <summary>
+            Represents the DataContext property.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.DataContextSpy.CreateInstanceCore">
+            <summary>
+            Do not invoke.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Data.ValueConverters.ResourceKeyToResourceConverter">
+            <summary>
+            A value converter that performs a resource lookup on the conversion value.
+            NOTE: This class depends on the use of reflection to manipulate WPF to allow
+            an instance of the converter to perform a resource lookup.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/SelectDetailLevels.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.ValueConverters.ResourceKeyToResourceConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Performs a resource lookup using the value argument as the resource key.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.ValueConverters.ResourceKeyToResourceConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Do not invoke.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.ValueConverters.ResourceKeyToResourceConverter.CreateInstanceCore">
+            <summary>
+            Do not invoke.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Data.ValueConverters.ValueConverterGroup">
+            <summary>
+            A value converter which contains a list of IValueConverters and invokes their Convert or ConvertBack methods
+            in the order that they exist in the list.  Every converter in the group must be decorated exactly once with 
+            the ValueConversion attribute, otherwise an InvalidOperationException will be thrown.
+            </summary>
+            <remarks>
+            The output of one converter is piped into the next converter allowing for modular value
+            converters to be chained together.  If the ConvertBack method is invoked, the value converters
+            are executed in reverse order (highest to lowest index).  Do not leave an element in the
+            Converters property collection null, every element must reference a valid IValueConverter 
+            instance. If a value converter's type is not decorated with the ValueConversionAttribute, 
+            an InvalidOperationException will be thrown when the converter is added to the Converters collection.
+            
+            Documentation: http://www.codeproject.com/KB/WPF/PipingValueConverters_WPF.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.ValueConverters.ValueConverterGroup.#ctor">
+            <summary>
+            Initializes a new instance of ValueConverterGroup.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Data.ValueConverters.ValueConverterGroup.Converters">
+            <summary>
+            Returns the list of IValueConverters contained in this converter.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Data.ValueConverters.ValueConverterGroup.GetTargetType(System.Int32,System.Type,System.Boolean)">
+            <summary>
+            Returns the target type for a conversion operation.
+            </summary>
+            <param name="converterIndex">The index of the current converter about to be executed.</param>
+            <param name="finalTargetType">The 'targetType' argument passed into the conversion method.</param>
+            <param name="convert">Pass true if calling from the Convert method, or false if calling from ConvertBack.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Data.ValueConverters.EnumValueToDescriptionConverter">
+            <summary>
+            Supports conversion from an enum value to the description of that value.  If the enum value is decorated
+            with the <see cref="T:System.ComponentModel.DescriptionAttribute"/> attribute, its Description value is returned.
+            Otherwise, the name of the enum value is returned.
+            </summary>
+            <remarks>
+            Documentation: http://web.archive.org/web/20070404140911/http://www.infusionblogs.com/blogs/jsmith/archive/2006/08/29/835.aspx
+            </remarks>
+        </member>
+        <member name="T:WPF.JoshSmith.Data.ValueConverters.XamlToObjectConverter">
+            <summary>
+            This value converter creates a .NET object from the XAML contained in an XmlElement.  The object
+            created can be used as the content of a WPF control or ui element, such as the ContentPresenter.
+            The inner xml of the XmlElement passed to the converter must contain valid XAML.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Input.CommandGroup">
+            <summary>
+            This is a command that simply aggregates other commands into a group.
+            This command's CanExecute logic delegates to the CanExecute logic of 
+            all the child commands.  When executed, it calls the Execute method
+            on each child command sequentially.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/commandgroup.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.CommandGroup.#ctor">
+            <summary>
+            Initializes a new instance.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Input.CommandGroup.Commands">
+            <summary>
+            Returns the collection of child commands.  They are executed
+            in the order that they exist in this collection.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.CommandGroup.CanExecute(System.Object)">
+            <summary>
+            Returns true if all of the commands in the group can execute.
+            </summary>
+        </member>
+        <member name="E:WPF.JoshSmith.Input.CommandGroup.CanExecuteChanged">
+            <summary>
+            Raised when something changes whether the command can or cannot execute.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.CommandGroup.OnCanExecuteChanged">
+            <summary>
+            Subclasses can invoke this method to raise the CanExecuteChanged event.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.CommandGroup.Execute(System.Object)">
+            <summary>
+            Executes each command in the group sequentially.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.Input.SmartRoutedCommand">
+            <summary>
+            This abstract class is a RoutedCommand which allows its
+            subclasses to provide default logic for determining if 
+            they can execute and how to execute.  To enable the default
+            logic to be used, set the IsCommandSink attached property
+            to true on the root element of the element tree which uses 
+            one or more SmartRoutedCommand subclasses.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/SmartRoutedCommandsInWPF.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.SmartRoutedCommand.GetIsCommandSink(System.Windows.DependencyObject)">
+            <summary>
+            Gets the value of the attached IsCommandSink property for the specified object.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.SmartRoutedCommand.SetIsCommandSink(System.Windows.DependencyObject,System.Boolean)">
+            <summary>
+            Sets the value of the attached IsCommandSink property for the specified object.
+            </summary>
+        </member>
+        <member name="F:WPF.JoshSmith.Input.SmartRoutedCommand.IsCommandSinkProperty">
+            <summary>
+            Represents the IsCommandSink attached property.  This field is readonly.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.SmartRoutedCommand.OnIsCommandSinkChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the IsCommandSink attached property is set on an element.
+            </summary>
+            <param name="depObj">The element on which the property was set.</param>
+            <param name="e">Information about the property setting.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.SmartRoutedCommand.CanExecuteCore(System.Object)">
+            <summary>
+            Child classes override this method to provide logic which
+            determines if the command can execute.  This method will 
+            only be invoked if no element in the tree indicated that
+            it can execute the command.
+            </summary>
+            <param name="parameter">The command parameter (optional).</param>
+            <returns>True if the command can be executed, else false.</returns>
+        </member>
+        <member name="M:WPF.JoshSmith.Input.SmartRoutedCommand.ExecuteCore(System.Object)">
+            <summary>
+            Child classes override this method to provide default 
+            execution logic.  This method will only be invoked if
+            CanExecuteCore returns true.
+            </summary>
+            <param name="parameter">The command parameter (optional).</param>
+        </member>
+        <member name="T:WPF.JoshSmith.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1">
+            <summary>
+            Manages the dragging and dropping of ListViewItems in a ListView.
+            The ItemType type parameter indicates the type of the objects in
+            the ListView's items source.  The ListView's ItemsSource must be 
+            set to an instance of ObservableCollection of ItemType, or an 
+            Exception will be thrown.
+            </summary>
+            <typeparam name="ItemType">The type of the ListView's items.</typeparam>
+            <remarks>
+            Documentation: http://www.codeproject.com/KB/WPF/ListViewDragDropManager.aspx
+            </remarks>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.#ctor">
+            <summary>
+            Initializes a new instance of ListViewDragManager.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.#ctor(System.Windows.Controls.ListView)">
+            <summary>
+            Initializes a new instance of ListViewDragManager.
+            </summary>
+            <param name="listView"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.#ctor(System.Windows.Controls.ListView,System.Double)">
+            <summary>
+            Initializes a new instance of ListViewDragManager.
+            </summary>
+            <param name="listView"></param>
+            <param name="dragAdornerOpacity"></param>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.#ctor(System.Windows.Controls.ListView,System.Boolean)">
+            <summary>
+            Initializes a new instance of ListViewDragManager.
+            </summary>
+            <param name="listView"></param>
+            <param name="showDragAdorner"></param>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.DragAdornerOpacity">
+            <summary>
+            Gets/sets the opacity of the drag adorner.  This property has no
+            effect if ShowDragAdorner is false. The default value is 0.7
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.IsDragInProgress">
+            <summary>
+            Returns true if there is currently a drag operation being managed.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.ListView">
+            <summary>
+            Gets/sets the ListView whose dragging is managed.  This property
+            can be set to null, to prevent drag management from occuring.  If
+            the ListView's AllowDrop property is false, it will be set to true.
+            </summary>
+        </member>
+        <member name="E:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.ProcessDrop">
+            <summary>
+            Raised when a drop occurs.  By default the dropped item will be moved
+            to the target index.  Handle this event if relocating the dropped item
+            requires custom behavior.  Note, if this event is handled the default
+            item dropping logic will not occur.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.ShowDragAdorner">
+            <summary>
+            Gets/sets whether a visual representation of the ListViewItem being dragged
+            follows the mouse cursor during a drag operation.  The default value is true.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.IndexUnderDragCursor">
+            <summary>
+            Returns the index of the ListViewItem underneath the
+            drag cursor, or -1 if the cursor is not over an item.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ListViewDragDropManager`1.IsMouseOverScrollbar">
+            <summary>
+            Returns true if the mouse cursor is over a scrollbar in the ListView.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState">
+            <summary>
+            Exposes attached properties used in conjunction with the ListViewDragDropManager class.
+            Those properties can be used to allow triggers to modify the appearance of ListViewItems
+            in a ListView during a drag-drop operation.
+            </summary>
+            <remarks>
+            Documentation: http://www.codeproject.com/useritems/ListViewDragDropManager.asp
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.IsBeingDraggedProperty">
+            <summary>
+            Identifies the ListViewItemDragState's IsBeingDragged attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.GetIsBeingDragged(System.Windows.Controls.ListViewItem)">
+            <summary>
+            Returns true if the specified ListViewItem is being dragged, else false.
+            </summary>
+            <param name="item">The ListViewItem to check.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.SetIsBeingDragged(System.Windows.Controls.ListViewItem,System.Boolean)">
+            <summary>
+            Sets the IsBeingDragged attached property for the specified ListViewItem.
+            </summary>
+            <param name="item">The ListViewItem to set the property on.</param>
+            <param name="value">Pass true if the element is being dragged, else false.</param>
+        </member>
+        <member name="F:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.IsUnderDragCursorProperty">
+            <summary>
+            Identifies the ListViewItemDragState's IsUnderDragCursor attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.GetIsUnderDragCursor(System.Windows.Controls.ListViewItem)">
+            <summary>
+            Returns true if the specified ListViewItem is currently underneath the cursor 
+            during a drag-drop operation, else false.
+            </summary>
+            <param name="item">The ListViewItem to check.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.ListViewItemDragState.SetIsUnderDragCursor(System.Windows.Controls.ListViewItem,System.Boolean)">
+            <summary>
+            Sets the IsUnderDragCursor attached property for the specified ListViewItem.
+            </summary>
+            <param name="item">The ListViewItem to set the property on.</param>
+            <param name="value">Pass true if the element is underneath the drag cursor, else false.</param>
+        </member>
+        <member name="T:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1">
+            <summary>
+            Event arguments used by the ListViewDragDropManager.ProcessDrop event.
+            </summary>
+            <typeparam name="ItemType">The type of data object being dropped.</typeparam>
+            <remarks>
+            Documentation: http://www.codeproject.com/useritems/ListViewDragDropManager.asp
+            </remarks>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.ItemsSource">
+            <summary>
+            The items source of the ListView where the drop occurred.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.DataItem">
+            <summary>
+            The data object which was dropped.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.OldIndex">
+            <summary>
+            The current index of the data item being dropped, in the ItemsSource collection.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.NewIndex">
+            <summary>
+            The target index of the data item being dropped, in the ItemsSource collection.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.AllowedEffects">
+            <summary>
+            The drag drop effects allowed to be performed.
+            </summary>
+        </member>
+        <member name="P:WPF.JoshSmith.ServiceProviders.UI.ProcessDropEventArgs`1.Effects">
+            <summary>
+            The drag drop effect(s) performed on the dropped item.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.ServiceProviders.UI.IUnloadable">
+            <summary>
+            Provides a means of releasing resources, in conjunction with the UnloadedManager.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.IUnloadable.Unload">
+            <summary>
+            Invoked when an object's resources should be released.  The object should
+            still be in a usable/operable state after this method is invoked.
+            </summary>
+        </member>
+        <member name="T:WPF.JoshSmith.ServiceProviders.UI.UnloadedManager">
+            <summary>
+            A service provider class which provides a means of releasing resources
+            when a FrameworkElement's Unloaded event fires.  If the DataContext of
+            the element implements IUnloadable, it's Unload method will be invoked
+            when the elements Unloaded event fires.
+            </summary>
+            <remarks>
+            Documentation: 
+            http://web.archive.org/web/20070127124811/http://www.infusionblogs.com/blogs/jsmith/archive/2006/10/28/917.aspx
+            </remarks>
+        </member>
+        <member name="F:WPF.JoshSmith.ServiceProviders.UI.UnloadedManager.IsManagedProperty">
+            <summary>
+            Identifies the UnloadedManager's IsManaged attached property.  
+            This field is read-only.
+            </summary>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.UnloadedManager.GetIsManaged(System.Windows.FrameworkElement)">
+            <summary>
+            Returns true if the specified FrameworkElement's Unloaded event will cause the UnloadedManager to 
+            unload its associated data object, else false
+            </summary>
+            <param name="element">The FrameworkElement to check if it is managed or not.</param>
+        </member>
+        <member name="M:WPF.JoshSmith.ServiceProviders.UI.UnloadedManager.SetIsManaged(System.Windows.FrameworkElement,System.Boolean)">
+            <summary>
+            Sets the IsManaged attached property for the specified FrameworkElement.
+            </summary>
+            <param name="element">The FrameworkElement to be managed or unmanaged.</param>
+            <param name="value">True if the element should be managed by the UnloadedManager.</param>
+        </member>
+    </members>
+</doc>

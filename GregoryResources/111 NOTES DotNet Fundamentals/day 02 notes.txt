@@ -1,0 +1,95 @@
+TASK
+
+Create project ReadWriteText.
+
+Ask the user which operation he/she wants to perform,
+reading or writing.
+
+If reading:
+- Ask user for a name of file.
+- Read ALL the contents of the file and display it.
+
+If writing:
+- Ask user for a name of file.
+- Ask user for a line of text.
+- Write the line of text to file.
+
+Notes:
+- Make sure the file is closed after the operation.
+- Make sure you handle the IO exceptions that may occur.
+- There is no loop here, only one operation per execution
+
+Example sessions:
+
+What do you want to do? 1-reading, 2-writing: 1
+Enter name of file to read: data.txt
+File not found.
+
+What do you want to do? 1-reading, 2-writing: 1
+Enter name of file to read: text.txt
+Contents is:
+Hello
+This is the
+contents of this file
+
+What do you want to do? 1-reading, 2-writing: 2
+Enter name of file to write: output.txt
+Enter a line of text:
+Hi everyone, this is a line of text.
+Your text has been saved in output.txt
+
+
+TASK - HOMEWORK 1 - project FileNumbers
+
+After you create the project run program once
+to create 'bin\Debug' sub-directory in the project directory.
+
+Using Notepad create a text file 'input.txt'
+with floating point numbers. Put it in 'bin\Debug' directory.
+
+2.33
+7.0
+AAAAFDFSF
+6
+7.88
+
+In your program open the file, read in each
+of the numbers into List<double>.
+
+Then compute and display:
+- the sum
+- the average
+- the median value
+- all values below the median
+
+Write the largest value to file 'output.txt'
+
+Notes:
+- handle IO exceptions if necessary
+- if parsing problems occur - display a warning and
+continue to the next line
+
+
+TASK - HOMEWORK 2
+
+Create project CommonNumbers.
+
+Declare two int[] arrays called intsOne and intsTwo
+and assign a list of unique integers to each of them, e.g.
+int[] intsOne = {1, 3, 5, 7, 9};
+int[] intsTwo = {3, 6, 7, 9, 1, 2}
+
+Write code to:
+
+a) display the list of intsOne in one line, comma-separated
+b) display the list of intsTwo in one line, comma-separated
+c) find which integers exist in both lists and display them
+one per line.
+
+Note: do not use array sorting or other utility methods
+from standard C# library.
+
+Example output:
+intsOne: 1, 3, 5, 7, 9,
+intsTwo: 3, 6, 7, 9, 1, 2,
+common: 1, 3, 7, 9,

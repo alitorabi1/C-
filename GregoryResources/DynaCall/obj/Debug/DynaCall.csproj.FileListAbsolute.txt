@@ -1,0 +1,5 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\DynaCall\bin\Debug\DynaCall.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\DynaCall\bin\Debug\DynaCall.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\DynaCall\bin\Debug\DynaCall.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\DynaCall\obj\Debug\DynaCall.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\DynaCall\obj\Debug\DynaCall.pdb

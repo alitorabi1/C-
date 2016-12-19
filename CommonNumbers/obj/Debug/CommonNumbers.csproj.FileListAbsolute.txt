@@ -1,0 +1,5 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\CommonNumbers\bin\Debug\CommonNumbers.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\CommonNumbers\bin\Debug\CommonNumbers.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\CommonNumbers\bin\Debug\CommonNumbers.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\CommonNumbers\obj\Debug\CommonNumbers.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\CommonNumbers\obj\Debug\CommonNumbers.pdb

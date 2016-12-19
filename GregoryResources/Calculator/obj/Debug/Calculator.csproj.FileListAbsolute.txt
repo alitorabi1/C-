@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\bin\Debug\Calculator.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\obj\Debug\Calculator.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Calculator\obj\Debug\Calculator.pdb

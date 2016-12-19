@@ -1,0 +1,15 @@
+NOT COMPLETE YET
+
+Project setup and first steps:
+
+
+GIT
+1. Create an account on github
+2. Create a shared project for the 2 projec members
+
+SCRUM / KANBAN
+1. Create account on Trello
+2. Break down project steps
+
+
+

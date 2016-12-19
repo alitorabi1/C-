@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CipherText
+</name>
+</assembly>
+<members>
+<member name="T:CipherText.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CipherText.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:CipherText.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:CipherText.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:CipherText.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:CipherText.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:CipherText.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CipherText.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CipherText.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CipherText.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:CipherText.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:CipherText.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:CipherText.CardTypeCommandView">
+<summary>
+CardTypeCommandView
+</summary>
+</member>
+<member name="M:CipherText.CardTypeCommandView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.ChangePasswordDialogView">
+<summary>
+ChangePasswordDialogView
+</summary>
+</member>
+<member name="M:CipherText.ChangePasswordDialogView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.ModifyCaseCorrectionView">
+<summary>
+ModifyCaseCorrectionView
+</summary>
+</member>
+<member name="M:CipherText.ModifyCaseCorrectionView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.XAMLShield">
+<summary>
+XAMLShield
+</summary>
+</member>
+<member name="M:CipherText.XAMLShield.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:CipherText.CardBase.OnPropertyChanged(System.String)">
+ <summary> 
+ Raises the PropertyChanged event, and invokes the AfterPropertyChanged method
+ </summary> 
+ <param name="strPropertyName"> 
+ The property which was changed. 
+ </param> 
+</member>
+<member name="T:CipherText.CharacterCasingCheck">
+ <summary>
+ Provides a container for a single character casing check.
+ </summary>
+</member>
+<member name="P:CipherText.CharacterCasingCheck.LookFor">
+ <summary>
+ Gets the string value to look for when the character casing check is being performed.
+ </summary>
+</member>
+<member name="P:CipherText.CharacterCasingCheck.ReplaceWith">
+ <summary>
+ Gets the string value that will replace the LookFor value when the character casing check is being performed.
+ </summary>
+</member>
+<member name="M:CipherText.CharacterCasingCheck.#ctor(System.String,System.String)">
+ <summary>
+ Provides a container for a custom character casing correction.  The LookFor and ReplaceWith strings must be the same length.
+ </summary>
+ <param name="strLookFor">String value to replace.</param>
+ <param name="strReplaceWith">String value that will replace the LookFor value.</param>
+</member>
+<member name="M:CipherText.FormatText.ApplyCharacterCasing(System.String,CipherText.CharacterCasing)">
+ <summary>
+ Corrects the text character casing and optionally format phone fields simliar to Microsoft Outlook.
+ </summary>
+ <param name="strIn">String to be case corrected and optionally formatted.</param>
+ <param name="enumCharacterCase">Character case and format.</param>
+ <returns>String case corrected and optionally formatted.</returns>
+</member>
+<member name="T:CipherText.ApplicationMainWindowView">
+<summary>
+ApplicationMainWindowView
+</summary>
+</member>
+<member name="M:CipherText.ApplicationMainWindowView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.DatabaseView">
+<summary>
+DatabaseView
+</summary>
+</member>
+<member name="M:CipherText.DatabaseView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.DataEditorView">
+<summary>
+DataEditorView
+</summary>
+</member>
+<member name="M:CipherText.DataEditorView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.FieldEditorView">
+<summary>
+FieldEditorView
+</summary>
+</member>
+<member name="M:CipherText.FieldEditorView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.GeneratePasswordDialog">
+<summary>
+GeneratePasswordDialog
+</summary>
+</member>
+<member name="M:CipherText.GeneratePasswordDialog.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:CipherText.LoginDialog">
+<summary>
+LoginDialog
+</summary>
+</member>
+<member name="M:CipherText.LoginDialog.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

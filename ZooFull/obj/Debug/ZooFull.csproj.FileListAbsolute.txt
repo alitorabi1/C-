@@ -1,0 +1,16 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\bin\Debug\ZooFull.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\bin\Debug\ZooFull.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\bin\Debug\ZooFull.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ZooFull\obj\Debug\ZooFull.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects0\ZooFull\bin\Debug\ZooFull.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects0\ZooFull\obj\Debug\ZooFull.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects0\ZooFull\obj\Debug\ZooFull.pdb

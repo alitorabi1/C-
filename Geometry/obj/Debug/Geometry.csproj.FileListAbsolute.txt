@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\bin\Debug\Geometry.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\bin\Debug\Geometry.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\bin\Debug\Geometry.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\obj\Debug\Geometry.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\obj\Debug\Geometry.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Geometry\obj\Debug\Geometry.pdb

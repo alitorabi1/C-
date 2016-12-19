@@ -1,0 +1,17 @@
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\Test.DragCanvas.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\Test.DragCanvas.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\Test.DragCanvas.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\WPF.JoshSmith.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\WPF.JoshSmith.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\bin\Debug\WPF.JoshSmith.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\DragCanvasWindow.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Resources.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\DragCanvasWindow.g.cs
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\App.g.cs
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas_MarkupCompile.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.g.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.csproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\WPF.JoshSmith\Test.DragCanvas\obj\Debug\Test.DragCanvas.pdb

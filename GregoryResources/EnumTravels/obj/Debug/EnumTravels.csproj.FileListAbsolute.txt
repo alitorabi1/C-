@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\bin\Debug\EnumTravels.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\bin\Debug\EnumTravels.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\bin\Debug\EnumTravels.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\obj\Debug\EnumTravels.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\obj\Debug\EnumTravels.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumTravels\obj\Debug\EnumTravels.pdb

@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\bin\Debug\PeopleList.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\bin\Debug\PeopleList.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\bin\Debug\PeopleList.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\obj\Debug\PeopleList.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\obj\Debug\PeopleList.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\PeopleList\obj\Debug\PeopleList.pdb

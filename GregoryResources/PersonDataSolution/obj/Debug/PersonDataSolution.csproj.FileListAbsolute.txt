@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\bin\Debug\PersonDataSolution.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\bin\Debug\PersonDataSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\bin\Debug\PersonDataSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PersonDataSolution\obj\Debug\PersonDataSolution.csprojResolveAssemblyReference.cache

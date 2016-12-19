@@ -1,0 +1,26 @@
+﻿<Window x:Class="ToDoDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="396" Width="712">
+    <Grid>
+        <DataGrid x:Name="dgToDoItem" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="334" Margin="10,10,0,0" VerticalAlignment="Top" Width="388" IsReadOnly="True" SelectionChanged="dgItemsList_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="1*" />
+                <DataGridTextColumn Header="DueDate" IsReadOnly="True" Binding="{Binding DueDate}" Width="2*"/>
+                <DataGridTextColumn Header="Is Done" IsReadOnly="True" Binding="{Binding IsDone}" Width="1*"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="3*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="415,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,-0.269" Width="85"/>
+        <Label Content="due Date" HorizontalAlignment="Left" Margin="415,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.385" Width="85"/>
+        <Label Content="isDone" HorizontalAlignment="Left" Margin="419,126,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="lbId" Content="" HorizontalAlignment="Left" Margin="526,30,0,0" VerticalAlignment="Top" Width="109"/>
+        <Button x:Name="btAdd" Content="Add" HorizontalAlignment="Left" Margin="419,298,0,0" VerticalAlignment="Top" Width="67" Click="btAdd_Click"/>
+        <Button x:Name="btUpdate" Content="Update" HorizontalAlignment="Left" Margin="521,298,0,0" VerticalAlignment="Top" Width="67" Click="btUpdate_Click"/>
+        <Button x:Name="btDelete" Content="Delete" HorizontalAlignment="Left" Margin="616,298,0,0" VerticalAlignment="Top" Width="67" Click="btDelete_Click" RenderTransformOrigin="1.642,0.5"/>
+        <TextBox x:Name="tbDescription" HorizontalAlignment="Left" Height="106" Margin="419,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
+        <DatePicker x:Name="dpDueDate" HorizontalAlignment="Left" Margin="526,78,0,0" VerticalAlignment="Top" Width="157"/>
+        <CheckBox x:Name="cbIsDone" Content="Yes" HorizontalAlignment="Left" Margin="526,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.059,0.812" />
+
+    </Grid>
+</Window>

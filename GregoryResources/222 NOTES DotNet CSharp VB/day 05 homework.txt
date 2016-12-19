@@ -1,0 +1,20 @@
+1. Project team and proposal
+a) choose a project partner
+b) choose one or two project subjects
+c) Write project proposal (one for each subject)
+as per provided instructions (description, UI, database).
+d) prepare to discuss the projects at the next class.
+
+2. Read and implement Custom Dialogs tutorial.
+
+http://www.wpf-tutorial.com/dialogs/creating-a-custom-input-dialog/
+
+3. Prepare for the quiz similar to the exercises
+done in class with the use of C# WPF and MS SQL LocalDB.
+
+4. Register (if you can ) for 25USD for 12 months
+free credit to use Azure services.
+
+https://azure.microsoft.com/en-us/pricing/member-offers/vs-dev-essentials/?campaign=VSBlog_AzureXamAnnoucement_AzureDE
+
+

@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\bin\Debug\Quiz1DelegatesSolution.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\bin\Debug\Quiz1DelegatesSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\bin\Debug\Quiz1DelegatesSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\obj\Debug\Quiz1DelegatesSolution.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\obj\Debug\Quiz1DelegatesSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz1DelegatesSolution\obj\Debug\Quiz1DelegatesSolution.pdb

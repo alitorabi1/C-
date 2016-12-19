@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E558700D-992B-4A17-B158-B22259DB0C6E}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CipherText</RootNamespace>
+    <AssemblyName>CipherText</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Resources\Images\LockedUser.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CipherText.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CipherText.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <BlendEmbeddedFont Include="Fonts\OCRAEXT.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+    </BlendEmbeddedFont>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Application.xaml.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Application.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\RelayCommand.vb" />
+    <Compile Include="Converter\IsAllRecordsConverter.vb" />
+    <Compile Include="DataTemplateSelector\CardTitleDataTemplateSelector.vb" />
+    <Compile Include="Deep Copy\DeepCopy.vb" />
+    <Compile Include="ViewModel\CardViewModel.vb" />
+    <Compile Include="ViewModel\CardTypeCommandViewModel.vb" />
+    <Compile Include="ViewModel\ChangePasswordDialogViewModel.vb" />
+    <Compile Include="ViewModel\CharacterCasingCheckViewModel.vb" />
+    <Compile Include="ViewModel\ModifyCaseCorrectionViewModel.vb" />
+    <Compile Include="ViewModel\OptionViewModel.vb" />
+    <Compile Include="View\CardTypeCommandView.xaml.vb">
+      <DependentUpon>CardTypeCommandView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChangePasswordDialogView.xaml.vb">
+      <DependentUpon>ChangePasswordDialogView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModifyCaseCorrectionView.xaml.vb">
+      <DependentUpon>ModifyCaseCorrectionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XAML Shield\XAMLShield.xaml.vb">
+      <DependentUpon>XAMLShield.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converter\FieldTypeConverter.vb" />
+    <Compile Include="EventArgs\EditCardEventArgs.vb" />
+    <Compile Include="EventArgs\EventDelegates.vb" />
+    <Compile Include="Random Password\RandomPassword.vb" />
+    <Compile Include="Model\Card.vb" />
+    <Compile Include="Model\CardField.vb" />
+    <Compile Include="Model\CardBase.vb" />
+    <Compile Include="Model\CardFields.vb" />
+    <Compile Include="Model\Cards.vb" />
+    <Compile Include="Model\CardType.vb" />
+    <Compile Include="Model\DataBase.vb" />
+    <Compile Include="Model\FieldCase.vb" />
+    <Compile Include="Model\FieldType.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CharacterCasing.vb" />
+    <Compile Include="Model\CharacterCasingCheck.vb" />
+    <Compile Include="String Formatting\FormatText.vb" />
+    <Compile Include="Validation Rules - Helper\ValidationHelper.vb" />
+    <Compile Include="Validation Rules - Helper\RegularExpressionPatternType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModel\ApplicationMainWindowViewModel.vb" />
+    <Compile Include="ViewModel\DataBaseViewModel.vb" />
+    <Compile Include="ViewModel\DataEditorViewModel.vb" />
+    <Compile Include="ViewModel\FieldEditorViewModel.vb" />
+    <Compile Include="ViewModel\ViewModelBase.vb" />
+    <Compile Include="View\ApplicationMainWindowView.xaml.vb">
+      <DependentUpon>ApplicationMainWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DatabaseView.xaml.vb">
+      <DependentUpon>DatabaseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DataEditorView.xaml.vb">
+      <DependentUpon>DataEditorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FieldEditorView.xaml.vb">
+      <DependentUpon>FieldEditorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GeneratePasswordDialog.xaml.vb">
+      <DependentUpon>GeneratePasswordDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginDialog.xaml.vb">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="Class Diagram\CommandViewClassDiagram.cd" />
+    <None Include="Class Diagram\FieldEditorClassDiagram.cd" />
+    <None Include="Class Diagram\RelayCommandClassDiagram.cd" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="View\CardTypeCommandView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ChangePasswordDialogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ModifyCaseCorrectionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="XAML Shield\XAMLShield.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ApplicationMainWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DatabaseView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DataEditorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FieldEditorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GeneratePasswordDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\edit.png" />
+    <Resource Include="Resources\Images\engineer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\bank.png" />
+    <Resource Include="Resources\Images\keyPad.png" />
+    <Resource Include="Resources\Images\firewall.png" />
+    <Resource Include="Resources\Images\visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\creditCards.png" />
+    <Resource Include="Resources\Images\email.png" />
+    <Resource Include="Resources\Images\hardware.png" />
+    <Resource Include="Resources\Images\server.png" />
+    <Resource Include="Resources\Images\softwareLicense.png" />
+    <Resource Include="Resources\Images\webSite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\allRecords.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\LockedUser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\vpn.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="SubsetFont.targets" />
+</Project>

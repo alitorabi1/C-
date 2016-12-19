@@ -1,0 +1,14 @@
+Person;Jerry Tee;33
+Student;Maria Salvadore;54;3.21;Geography
+Teacher;Lunaria Massi;45;17;Mathematics
+Technician;38
+Person;Maria;-5
+;
+
+Student;Jerry Toe;45;5.5;Airforce
+Person;;22
+Person;;22PPP
+Person;Jerry Tee;33;aaaa
+Student;Maria Salvadore;54;3.21;Geography;aaaa
+Teacher;Lunaria Massi;45;17;Mathematics;aaaa
+Person;Final;44

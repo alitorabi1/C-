@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\bin\Debug\TestEnums.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\bin\Debug\TestEnums.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\bin\Debug\TestEnums.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\obj\Debug\TestEnums.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\obj\Debug\TestEnums.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\TestEnums\obj\Debug\TestEnums.pdb

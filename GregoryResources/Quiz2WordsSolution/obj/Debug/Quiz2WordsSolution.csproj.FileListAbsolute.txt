@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\bin\Debug\Quiz2WordsSolution.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\bin\Debug\Quiz2WordsSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\bin\Debug\Quiz2WordsSolution.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\obj\Debug\Quiz2WordsSolution.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\obj\Debug\Quiz2WordsSolution.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\Quiz2WordsSolution\obj\Debug\Quiz2WordsSolution.pdb

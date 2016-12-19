@@ -1,0 +1,115 @@
+﻿<UserControl 
+  x:Class="DataEditorView" 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  xmlns:local="clr-namespace:CipherText" 
+  TargetUpdated="VisibilityChanged_EventHandler" 
+  Visibility="{Binding 
+                Path=DataEditorVisibility, 
+                NotifyOnTargetUpdated=True, 
+                FallbackValue={x:Static Visibility.Hidden}}">
+    
+  <!--
+    The FallbackValue must be Hidden.  If it's Collapsed
+    the DataBindings don't set up correctly initially.
+    After this DataEditorView has been used once, it can
+    either be Collapsed or Hidden.
+    -->  
+    
+  <UserControl.Resources>
+
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Validation.ErrorTemplate" Value="{StaticResource validationTemplate}" />
+        </Style>
+
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Width" Value="125" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+        <DataTemplate DataType="{x:Type local:FieldEditorViewModel}">
+            <local:FieldEditorView />
+        </DataTemplate>
+
+    </UserControl.Resources>
+    
+    <Grid Background="{x:Null}" Margin="0,0,0,0">
+        <Border Background="{StaticResource editingFormBackgroundBrush}" Style="{StaticResource databaseOuterBorder}" KeyboardNavigation.TabNavigation="Cycle" Margin="11,14,11,11">
+            <ScrollViewer Margin="0,28,0,14" Style="{StaticResource FavsScrollViewer}">
+                <StackPanel>
+
+                    <Grid Margin="3.5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="125" />
+                            <ColumnDefinition Width="*" MinWidth="100" />
+                            <ColumnDefinition Width="23" />
+                        </Grid.ColumnDefinitions>
+                        <Label x:Name="lblTitle" Cursor="Hand" Margin="7,0,0,0" Content="_Title" Target="{Binding ElementName=txtTitle}" />
+                        <TextBox Margin="10,0,0,0" x:Name="txtTitle" Grid.Column="1" Text="{Binding Path=Card.Title, Mode=TwoWay, NotifyOnValidationError=True, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, ValidatesOnExceptions=True, StringFormat=\{0:\}}" />
+
+                    </Grid>
+
+                    <ItemsControl AlternationCount="2" ItemsSource="{Binding Path=CardFieldCollection}" FocusVisualStyle="{x:Null}" IsTabStop="False" />
+
+                    <Grid Margin="3.5,3.5,3.5,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="125" />
+                            <ColumnDefinition Width="*" MinWidth="100" />
+                            <ColumnDefinition Width="23" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Margin="-8,0,0,7" Grid.Column="2" IsTabStop="False" Command="{Binding Path=AddFieldCommand}" ToolTip="Click to add a field to the form." Height="14" Width="14" Visibility="{Binding Path=InSchemaEditingMode, Converter={StaticResource booleanToVisibilityConverter}}" Style="{StaticResource gridButtonStyle}">
+                            <Image Source="{StaticResource addImage}" Stretch="UniformToFill" />
+                        </Button>
+
+                        <Label x:Name="lblNotes" Cursor="Hand" Margin="7,0,0,0" Grid.Column="0" Grid.Row="1" Content="_Notes" Target="{Binding ElementName=txtNotes}" />
+                        <TextBox Margin="10,0,0,0" Grid.Column="1" Grid.Row="1" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" x:Name="txtNotes" TextWrapping="Wrap" Height="100" Text="{Binding Path=Card.Notes, Mode=TwoWay, NotifyOnValidationError=True, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, ValidatesOnExceptions=True}" />
+
+                        <TextBlock Grid.Column="0" Grid.Row="2" Margin="7,3.5" Text="Date Created" />
+                        <TextBlock Grid.Column="1" Grid.Row="2" Margin="10,3.5" Text="{Binding Path=Card.DateCreated}" />
+                        <TextBlock Grid.Column="0" Grid.Row="3" Margin="7,3.5" Text="Date Modified" />
+                        <TextBlock Grid.Column="1" Grid.Row="3" Margin="10,3.5" Text="{Binding Path=Card.DateModified}" />
+
+                    </Grid>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+        <Border Background="{StaticResource formAndButtonBarsBrush}" Focusable="False" Margin="20,1,20,2" Padding="5,1,5,1" BorderBrush="Black" BorderThickness="1" CornerRadius="7,0,7,7" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+            <TextBlock Margin="7" FontWeight="Bold" Text="{Binding Path=Card.CardTypeName}" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FFFFFFFF" />
+        </Border>
+        <Border Background="{StaticResource formAndButtonBarsBrush}" Focusable="False" Margin="20,2,20,-1" Padding="5,1,5,1" BorderBrush="Black" BorderThickness="1" CornerRadius="7,0,7,7" VerticalAlignment="Bottom" HorizontalAlignment="Stretch">
+            <DockPanel LastChildFill="True">
+                
+                <TextBlock DockPanel.Dock="Left" Margin="3.5" FontSize="12"><Hyperlink Command="{Binding Path=ModifyFormCommand}"><InlineUIContainer><TextBlock ToolTip="{Binding Path=ModifyFormCommandToolTip}" Text="{Binding Path=ModifyFormCommandText}" /></InlineUIContainer></Hyperlink></TextBlock>
+
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <TextBlock Margin="3.5" FontSize="12"><Hyperlink ToolTip="Click to Save this record." Command="{Binding Path=SaveCommand}"><Run Text="Save" /></Hyperlink></TextBlock>
+
+                    <TextBlock Margin="11,3.5" FontSize="12"><Hyperlink Style="{StaticResource deleteHyperlinkStyle}" ToolTip="Click to Delete this record." Command="{Binding Path=DeleteCommand}"><Run Text="Delete" /></Hyperlink></TextBlock>
+
+                    <TextBlock Margin="3.5" FontSize="12"><Hyperlink ToolTip="Click to close this form without saving changes." Command="{Binding Path=CancelCommand}"><Run Text="Cancel" /></Hyperlink></TextBlock>
+
+                    <Button IsTabStop="False" Focusable="False" Height="1" Visibility="Visible" Width="1" IsCancel="True" Command="{Binding Path=CancelCommand}" />
+                </StackPanel>
+
+                <TextBlock HorizontalAlignment="Center" Margin="3.5" FontSize="12"><Hyperlink ToolTip="Click to modify the character casing rules." Command="{Binding Path=ModifyCharacterCasingRulesCommand}"><Run Text="Modify Casing Rules" /></Hyperlink></TextBlock>
+            </DockPanel>
+        </Border>
+    </Grid>
+
+</UserControl>

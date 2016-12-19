@@ -1,0 +1,15 @@
+C:\Users\ipd\Documents\c\ZooUpdate\bin\Debug\ZooUpdate.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\bin\Debug\ZooUpdate.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\bin\Debug\ZooUpdate.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\bin\Debug\ZooUpdate.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate_MarkupCompile.lref
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooUpdate\obj\Debug\ZooUpdate.pdb

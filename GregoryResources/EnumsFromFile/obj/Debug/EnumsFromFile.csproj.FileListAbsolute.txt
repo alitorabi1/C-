@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\bin\Debug\EnumsFromFile.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\bin\Debug\EnumsFromFile.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\bin\Debug\EnumsFromFile.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\obj\Debug\EnumsFromFile.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\obj\Debug\EnumsFromFile.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\EnumsFromFile\obj\Debug\EnumsFromFile.pdb

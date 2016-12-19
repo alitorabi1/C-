@@ -1,0 +1,75 @@
+Project ideas and technologies
+
+
+Project ideas:
+- CRM or HR system
+- Calendar / Planner
+- Point Of Sale
+- Warehouse Management (e.g. Blood bank management system)
+- Invoicing
+- Photo, Music or Video library
+- Bank / ATM (?)
+- School course & student registration system
+- Drawing (e.g. architectural plan making)
+- A game (not using game libraries)
+
+
+Technologies you MUST use:
+* WPF, C#
+* SQL Database via Azure (at least 2 tables)
+* Multiple windows (at least 2)
+* NEW! At least 10 unit tests, using NUnit, similar to
+https://www.visualstudio.com/en-us/docs/test/developer-testing/getting-started/getting-started-with-developer-testing
+* NEW! At least 2 coded UI tests
+https://msdn.microsoft.com/en-us/library/dd286726.aspx
+
+
+Possible technologies (in no special order):
+* Drag and drop
+* MVVM (~MVC for WPF)
+* EntityFramework (OO database access)
+* Ribbon instead menus
+* StackPanel, GridSplitter (highly recommended)
+* TabControl, ToolBar, TreeView
+* Sound, Animation, Video playback
+* PDF-generation
+* Printing
+* Drawing on canvas (e.g. Charts with data)
+
+
+TODO:
+
+* Scrum daily (Agile Methodology)
+
+How to performa Scrum.
+
+Every day coming to classroom have a "scrum meeting".
+
+1. What was done / not done yesterday.
+2. What will be done by the end of today.
+3. Where do I need assistance
+(from online sources, my project partner, or teacher)
+
+You will create a file called 'dailyscrum.txt'
+where you will ADD (not replace) these notes every morning.
+
+
+--- Sept 6 Gregory
+1. I implemented XY, but didn't Z because got stuck on A
+2. Finish Z then move on to research and implement B
+3. I need help finding an example how B is used to....
+
+--- Sept 6 Jerry
+1. I implemented Alpha, Beta and even Gamma
+2. I will implent Theta, Zeta, Yota today
+3. I desperately need help from the teacher to learn
+how to use Micro-Gamma expressions to solve ...
+
+
+--- Sept 7 Gregory
+1. I only got started on Z, and never tog to B at all
+2. Finish Z then move on to research and implement B
+3. I will actually talk to the teacher about B,
+because I think I will get stuck on it otherwise
+
+

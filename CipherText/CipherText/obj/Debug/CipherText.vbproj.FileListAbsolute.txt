@@ -1,0 +1,35 @@
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\bin\Debug\CipherText.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\bin\Debug\CipherText.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\bin\Debug\CipherText.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.vbprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ChangePasswordDialogView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\XAML Shield\XAMLShield.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\GeneratePasswordDialog.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\LoginDialog.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\CardTypeCommandView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ChangePasswordDialogView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ModifyCaseCorrectionView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\XAML Shield\XAMLShield.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ApplicationMainWindowView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\DatabaseView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\DataEditorView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\FieldEditorView.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\GeneratePasswordDialog.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\LoginDialog.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\Application.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText_MarkupCompile.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText_MarkupCompile.lref
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\Application.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\CardTypeCommandView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ModifyCaseCorrectionView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\ApplicationMainWindowView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\DatabaseView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\DataEditorView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\View\FieldEditorView.baml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.g.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.vbproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\CipherText\CipherText\obj\Debug\CipherText.pdb

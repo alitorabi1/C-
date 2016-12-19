@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\bin\Debug\IceCreamSelector.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\bin\Debug\IceCreamSelector.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\bin\Debug\IceCreamSelector.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\IceCreamSelector\obj\Debug\IceCreamSelector.pdb

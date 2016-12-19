@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\bin\Debug\PeopleDB.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\bin\Debug\PeopleDB.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\bin\Debug\PeopleDB.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\PeopleDB\obj\Debug\PeopleDB.csprojResolveAssemblyReference.cache

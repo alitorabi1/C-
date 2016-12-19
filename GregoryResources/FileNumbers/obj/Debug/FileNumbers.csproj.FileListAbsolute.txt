@@ -1,0 +1,6 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\bin\Debug\FileNumbers.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\bin\Debug\FileNumbers.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\bin\Debug\FileNumbers.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\obj\Debug\FileNumbers.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\obj\Debug\FileNumbers.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\FileNumbers\obj\Debug\FileNumbers.pdb

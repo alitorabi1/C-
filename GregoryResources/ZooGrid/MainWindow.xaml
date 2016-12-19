@@ -1,0 +1,14 @@
+﻿<Window x:Class="ZooGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="518">
+            <MenuItem Header="File">
+                <MenuItem Header="Open..." Click="MenuOpen_Click"/>
+                <MenuItem Header="Exit" />
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="dgAnimals" IsReadOnly="True" SelectionMode="Single" Height="290" Margin="0,0,0.4,0.4" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

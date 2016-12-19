@@ -1,0 +1,5 @@
+Tina;Migalatii;2016-08-24;Female;boats,;Canadian;AA012345;h8s3A7
+Tina;Migalatii;2016-08-24;Female;cats,dogs,boats,;American;;
+Natalie;Desrosiers;2016-08-10;Female;cats,dogs,boat;Canadian;AA012345;h8S3a7
+Tina;Migalatii;2016-08-24;Female;dogs;Russian;;
+aasdas;dasdad;2016-08-01;Male;cats,dogs;Russian;;;

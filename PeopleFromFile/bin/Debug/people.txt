@@ -1,0 +1,9 @@
+Person;Jerry Tee;33
+Student;Maria Salvadore;54;3.21;Geography
+Teacher;Lunaria Massi;45;17;Mathematics
+Person;jerry Kachal;33
+Person;Terry Machal;21
+Teacher;Marry Topol;32;2;Geography
+Teacher;Barry Sibil;43;5;Physics
+Student;Carry Nonor;17;3.8;Mathematics
+Student;Parry Baboo;19;4.3;Electricity

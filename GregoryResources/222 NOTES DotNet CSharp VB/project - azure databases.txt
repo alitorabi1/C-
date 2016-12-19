@@ -1,0 +1,18 @@
+TECHER NOTES - NOT NECESSARY FOR STUDENTS
+
+1. Register account with Azure either via
+a) Always possible 30-day $250 trial
+b) ***BETTER OPTION*** if still available
+Register (if you can ) for 25USD for 12 months
+free credit to use Azure services.
+
+https://azure.microsoft.com/en-us/pricing/member-offers/vs-dev-essentials/?campaign=VSBlog_AzureXamAnnoucement_AzureDE
+
+2. IMPORTANT - MAKE SURE FOR ALL DATABASES
+THE ***PRICING TIER*** IS SET TO "BASIC" 5 DTU
+Otherwise we risk running out of money.
+
+This must be done for every database separately.
+
+
+

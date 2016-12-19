@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\bin\Debug\ZooSimple.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\bin\Debug\ZooSimple.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\bin\Debug\ZooSimple.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\ZooSimple\obj\Debug\ZooSimple.pdb

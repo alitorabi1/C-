@@ -1,0 +1,13 @@
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\bin\Debug\SimpleList.exe.config
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\bin\Debug\SimpleList.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\bin\Debug\SimpleList.pdb
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.csprojResolveAssemblyReference.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\MainWindow.baml
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\MainWindow.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\App.g.cs
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList_MarkupCompile.cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.g.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.Properties.Resources.resources
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.csproj.GenerateResource.Cache
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.exe
+C:\Users\ipd\Documents\2016-ipd8-dotnet\SimpleList\obj\Debug\SimpleList.pdb

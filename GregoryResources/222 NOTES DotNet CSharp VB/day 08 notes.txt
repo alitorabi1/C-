@@ -1,0 +1,28 @@
+1. Make sure you've done Scrum with your project partner.
+If not - do it now, and save it in 'dailyscrum.txt'
+and push it to GitHub repository.
+
+2. In your repository create file 'stories.txt' and paste
+there all user stories and their breakdowns
+into steps that you craeted yesterday.
+
+If you don't have them - discuss user stories with your partner,
+write them down, break them down into steps and save in 'stories.txt' file.
+
+You should have 3-10 user stories and at least 15 steps.
+
+Each step must be at least 30 minutes long, at most 4 hours long.
+If you have all steps in Trello you can skip text file creation.
+Push the file to GitHub.
+
+3. Register an account in Trello.com, add your partner
+to it, make the board Public (read only for anyone)
+Add 4 lists: "Backlog" "In progress" "In testing" "Done"
+
+4. On the forum in thread 'Post your GitHub & Trello URLs here'
+reply to the thread and post four lines:
+- your name and your partner
+- project title
+- URL to Trello board
+- URL to GitHub repository
+

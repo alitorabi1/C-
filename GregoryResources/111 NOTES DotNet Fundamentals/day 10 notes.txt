@@ -1,0 +1,24 @@
+WARMUP TASK
+
+http://www.wpf-tutorial.com/listview-control/listview-data-binding-item-template/
+
+1. Create project PersonListToString
+and implement the first method of binding
+and displaying data shown in the tutorial that
+displays every element as string.
+
+2. Create project PersonFancyList
+and implement the second method of binding 
+and displaying data shown in the tutoria that
+displays every element data with varied styles
+using ItemTemplate / DataTemplate and
+binding to each property of objects listed.
+
+
+
+
+
+
+
+
+

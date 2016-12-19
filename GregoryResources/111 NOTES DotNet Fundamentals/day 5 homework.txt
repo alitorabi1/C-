@@ -1,0 +1,5 @@
+HOMEWORK
+
+Find project with GeoObj (Geometry, day 5 of Programming III).
+
+Re-implement it in C#.

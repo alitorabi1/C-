@@ -1,0 +1,22 @@
+TASK - static use
+
+Choose PeopleAgain or PeopleFromFile project for this
+exercise - whichever is more complete.
+
+Add the following methods to class Person:
+
+public int getUniqueID() { ... }
+
+public static int getTotalPersonCount() { ... }
+
+... and implement them.
+
+In ToString() of all 3 classes modify method
+to  add object id to the string, e..g
+"Person[7]: ...."
+
+At the end of your program, just before
+Console.ReadKey/ReadLine() add.
+
+Console.WriteLine("Total Persons count " +
+	Person.getTotalPersonCount);

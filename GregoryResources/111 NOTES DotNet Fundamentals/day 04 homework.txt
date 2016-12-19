@@ -1,0 +1,70 @@
+DAY 04 homework
+
+PART 1.
+
+Complete PeopleAgain project in the following manner:
+
+- Add ToString() method to Person, Student, Teacher classes
+that creates output similar to:
+Teacher: Jerry, 33 y/o, 8 years of experience in mathematics
+where Jerry, 33, 8, mathematics are fields of Teacher class.
+
+- Make sure you've declared
+List<Person> people = new List<Person>();
+
+- Make sure you've instantiated and added to people list
+at least 2 instances of each of the 3 classes (6 instances minimum).
+
+- Using for-each loop print out information about each
+Person, Student, Teacher. One per line, use ToString() [polymorphism]
+
+PART 2
+
+Start a new instance of Visual Studio, create new project PeopleFromFile.
+Copy the definitions of Person, Student, Teacher classes from
+previous project into this project.
+
+In your Main() method declare list like before
+List<Person> people = new List<Person>();
+
+Execute your program once.
+
+Using Notepad, in bin/Debug directory create file 'people.txt'
+with content similar to the one below (have at least 8 lines in total):
+
+Person;Jerry Tee;33
+Student;Maria Salvadore;54;3.21;Geography
+Teacher;Lunaria Massi;45;17;Mathematics
+
+In your program you will read in the contents of the file,
+parse it and instantiate objects of appropriate type,
+with data from the file. Add each new object to people list.
+
+Print out the list using for-each loop and ToString, like before.
+
+QUALITY ASSURANCE
+
+- make sure that if parsing of any line produces a problem,
+either with parsing (e.g. invalid class name or value is not an integer
+where integer was expected) - you display a warning to the user
+and continue to the next line.
+
+- make sure that if instantiating a class produces an exception
+you do the same - display a warning and continue to the next line.
+
+Note: you must test your program with partially invalid input files.
+Example of invalid lines you may use are below.
+
+Technician;38
+Person;Maria;-5
+;
+Student;Jerry Toe;45;5.5;Airforce
+Person;;22
+Student;Maria Salvadore;54;3.21;Geography;abc
+
+
+Note, how each of the lines above tests a different way in which your
+program may fail at parsing or instantiating a class.
+
+
+

@@ -1,0 +1,25 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="614.378" Width="464.06">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="464" Margin="10,97,0,0" Stroke="Black" VerticalAlignment="Top" Width="435"/>
+        <Label Content="Player O name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.092,0.512" Width="91"/>
+        <TextBox x:Name="txtPlayerO" HorizontalAlignment="Left" Height="23" Margin="106,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Player X name:" HorizontalAlignment="Left" Margin="245,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.092,0.512" Width="91"/>
+        <TextBox x:Name="txtPlayerX" HorizontalAlignment="Left" Height="23" Margin="340,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Moves count:" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="lblTurnCount" Content="0" HorizontalAlignment="Left" Margin="106,47,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.562,-0.137" Width="30" HorizontalContentAlignment="Right"/>
+        <Button Content="Restart game" HorizontalAlignment="Left" Margin="245,51,0,0" VerticalAlignment="Top" Width="200" Click="Restart_Click"/>
+        <Button x:Name="bt00" HorizontalAlignment="Left" Margin="26,109,0,0" VerticalAlignment="Top" Width="131" Height="135" Click="bt00_Click"/>
+        <Button x:Name="bt01" HorizontalAlignment="Left" Margin="172,109,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt01_Click"/>
+        <Button x:Name="bt02" HorizontalAlignment="Left" Margin="309,109,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt02_Click"/>
+        <Button x:Name="bt10" HorizontalAlignment="Left" Margin="26,260,0,0" VerticalAlignment="Top" Width="131" Height="135" Click="bt10_Click"/>
+        <Button x:Name="bt11" HorizontalAlignment="Left" Margin="172,260,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt11_Click"/>
+        <Button x:Name="bt12" HorizontalAlignment="Left" Margin="309,260,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt12_Click"/>
+        <Button x:Name="bt20" HorizontalAlignment="Left" Margin="26,411,0,0" VerticalAlignment="Top" Width="131" Height="135" Click="bt20_Click"/>
+        <Button x:Name="bt21" HorizontalAlignment="Left" Margin="172,411,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt21_Click"/>
+        <Button x:Name="bt22" HorizontalAlignment="Left" Margin="309,411,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="-0.161,-2.063" Height="135" Click="bt22_Click"/>
+
+    </Grid>
+</Window>

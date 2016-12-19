@@ -1,0 +1,68 @@
+TASK - create project EnumsFromFile
+
+Using Notepad in bin/Debug create file
+coffee.txt with the following content.
+
+Sugar
+Cream
+Ash
+Decaf
+
+In your source code define the following enum
+enum CoffeeOption {
+	None, Sugar, Milk, Cream, Decaf, Splenda }
+
+In Main() define
+List<CoffeeOption> options = new List<CoffeeOption>();
+
+Your job is to read the file, parse enums and add them to 'options' list, then print them out using foreach loop.
+
+If you encounter an invalid line in the file - display
+a warning, e.g. "Unknown value Ash", ignore it an continue.
+
+
+TASK project EnumTravels
+
+enum Continents { Africa, Antarctica, Asia, Australia, Europe, NorthAmerica, SouthAmerica }
+
+Using Notepad in bin/Debug create 'travels.txt' file with
+a list of visited continents, possibly repeated, similar to:
+
+Europe
+NorthAmerica
+Europe
+Asia
+Europe
+NorthAmerica
+
+Using the [Flags] annotation read in the data from file
+into variable in Main() defined as:
+
+Continents visted = 0;
+
+Ignore invalid lines, if any with a warning to the user.
+
+Print out the list of continents visited using:
+Console.WriteLine("You visited: " + visited);
+
+If you did things correctly each continent will be listed only once.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

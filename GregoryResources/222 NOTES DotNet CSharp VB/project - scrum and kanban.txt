@@ -1,0 +1,40 @@
+Mini-homework:
+
+1. Prepare a list of user stories
+that describe the user-point-of-view
+functionality of your project.
+
+Every project must have 5-10 of these.
+
+2. Step two.
+Break down each of these "stories"
+into technical list of steps.
+Small user stories do not need to be broken down.
+
+!!!! Either use Trello.com or create a text file for teacher to discuss tomorrow. !!!!
+
+?
+Size of task: minimum 30 minutes, maximum half a day.
+
+Example:
+
+1. User story: I want to be able to login
+
+2. Steps break down for developer:
+* Add table for user accounts 'user', with
+information if user is administrator or regular user.
+* Create a custom dialog and add logic
+to verify username and password.
+* Show it before we display the
+main window of the program.
+
+
+
+
+
+
+
+
+
+
+

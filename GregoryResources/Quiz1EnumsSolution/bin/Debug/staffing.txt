@@ -1,0 +1,9 @@
+Jerry:Monday,Wednesday,Thursday,Sunday
+Theresa:Monday,Laladay,Tuesday
+Melisa:Funday
+Maria:Wednesday,Sunday
+Terxyz123
+Jimmy:
+Michael:Saturday,Sunday
+Lara,Saturday:Friday
+Monday:Tuesday:Wednesday

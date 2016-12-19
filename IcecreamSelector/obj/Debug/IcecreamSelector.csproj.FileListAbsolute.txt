@@ -1,0 +1,14 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\bin\Debug\IcecreamSelector.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\bin\Debug\IcecreamSelector.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\bin\Debug\IcecreamSelector.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector_MarkupCompile.lref
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\IcecreamSelector\obj\Debug\IcecreamSelector.pdb

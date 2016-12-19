@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\bin\Debug\Quiz1Enums.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\bin\Debug\Quiz1Enums.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\bin\Debug\Quiz1Enums.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\obj\Debug\Quiz1Enums.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\obj\Debug\Quiz1Enums.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\Quiz1Enums\obj\Debug\Quiz1Enums.pdb

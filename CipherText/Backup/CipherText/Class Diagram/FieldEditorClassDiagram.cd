@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CipherText.FieldEditorViewModel">
+    <Position X="0.75" Y="2.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="CardField" Type="CipherText.CardField" FixedFromPoint="true">
+      <Path>
+        <Point X="3.5" Y="4.062" />
+        <Point X="4.75" Y="4.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.204" Y="0.143" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>A5MwAAABAAAACDYAABMIAACCKAAIARECCAABAKHAAAA=</HashCode>
+      <FileName>ViewModel\FieldEditorViewModel.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CardField" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CipherText.CardField">
+    <Position X="4.75" Y="2" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAUATQAAAAASQAgBCAAgBsAAAIAEAEQAAAACAAgIA=</HashCode>
+      <FileName>Model\CardField.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CipherText.FieldEditorView">
+    <Position X="0.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>View\FieldEditorView.xaml.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

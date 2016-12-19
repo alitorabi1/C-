@@ -1,0 +1,37 @@
+0. Complete PersonData project.
+
+1. Read all 11 pages regarding different panel types.
+
+http://www.wpf-tutorial.com/panels/introduction-to-wpf-panels/
+
+ 
+
+2. Read all 5 pages on Common Interface Controls (menus, status bar, ribbon, etc.)
+
+http://www.wpf-tutorial.com/common-interface-controls/menu-control/
+
+ 
+
+3. Improve your existing "Notepad" project by making the following modifications:
+
+- use DockPanel to position elements
+
+- at the bottom add Status Bar Control, similar to one described in http://www.wpf-tutorial.com/common-interface-controls/statusbar-control/
+
+- make status bar show full path to a file currently opened (or that it is a new file), as well as information whether the content has been modified.
+
+- to the Menu add items File->New, File->Save
+
+If a file is currently open and was modified and not saved selecting File->New must show a warning dialog asking user to abondon changes without savings [YesCancel].
+
+Same for File->Close(), if content has been modified and not saved.
+
+Same for File->Exit, if content has been modified and not saved.
+
+Same if user attempts to close the window by pressing [X] on window frame, and content has been modified and not saved.
+
+If no file is currently open then File->Close and File->Save options of the menu must be grayed out / Disabled.
+
+In other words - make it behave just like Notepad from MS Windows.
+
+ 

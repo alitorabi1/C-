@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\bin\Debug\FileNumbers.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\bin\Debug\FileNumbers.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\bin\Debug\FileNumbers.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\obj\Debug\FileNumbers.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\obj\Debug\FileNumbers.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\FileNumbers\obj\Debug\FileNumbers.pdb

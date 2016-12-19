@@ -1,0 +1,50 @@
+Quiz 1 - DotNet Fundamentals
+
+Create project Quiz1Results. Run it once.
+Using Notepad, in bin/Debug directory create
+file 'sprints.txt' with content similar to this one
+which will contain times in seconds of 60 meter
+sprints by different runners.
+
+Example 'sprints.txt' file.
+
+Jerry
+8.7
+9.2
+9.9
+Tom
+12.12
+Larisa
+9.1
+8.88
+
+Analyze the contents of the file and find out the
+following information:
+
+* What is the average time of all runs of all runners?
+* What is the fastest time of all runs?
+* How many times has each runner run?
+* What is the average run time of each runner?
+* How many runners were there?
+
+Example output:
+Average run time for all runners was  
+The fastest ran was 8.7
+Jerry ran 3 time(s)
+Tom ran 1 time(s)
+Larisa ran 2 time(s)
+Jerry's average is 9.27
+Tom's average is 12.12
+Larisa's average is 8.99
+There were 3 runners in total.
+
+Make sure you handle the usual expected exceptions.
+
+Do not use array embedded functions to compute averages, sums or to sort.
+
+Suggestion: try not to store information
+in any complicated data structure.
+Instead - use many for loops to obtain the necessary data.
+
+Submission: ZIP file of your project.
+
